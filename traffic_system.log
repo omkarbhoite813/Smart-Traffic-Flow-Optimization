@@ -1,0 +1,1529 @@
+2025-09-07 16:57:04,633 - __main__ - INFO - Created/verified directory: uploads
+2025-09-07 16:57:04,635 - __main__ - INFO - Created/verified directory: results
+2025-09-07 16:57:04,635 - __main__ - INFO - Created/verified directory: static_results
+2025-09-07 16:57:04,842 - __main__ - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 16:57:04,848 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 16:57:04,848 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 16:57:04,849 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 16:57:04,849 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 16:57:04,852 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 16:57:04,853 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 16:57:04,890 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 16:57:04,891 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 16:57:07,772 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:07] "GET / HTTP/1.1" 200 -
+2025-09-07 16:57:08,107 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:08] "GET /health HTTP/1.1" 200 -
+2025-09-07 16:57:36,846 - __main__ - INFO - Successfully uploaded: video-tl -> lane1.mp4
+2025-09-07 16:57:37,167 - __main__ - INFO - Successfully uploaded: video-tr -> lane2.mp4
+2025-09-07 16:57:37,496 - __main__ - INFO - Successfully uploaded: video-bl -> lane3.mp4
+2025-09-07 16:57:37,705 - __main__ - INFO - Successfully uploaded: video-br -> lane4.mp4
+2025-09-07 16:57:37,733 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:37] "POST /upload_videos HTTP/1.1" 200 -
+2025-09-07 16:57:37,761 - __main__ - INFO - Starting video analysis: 4 videos, 5s interval, 14 max iterations
+2025-09-07 16:57:37,762 - __main__ - INFO - Analysis started with 4 videos, 5s interval, 14 max iterations
+2025-09-07 16:57:37,766 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:37] "POST /start_analysis HTTP/1.1" 200 -
+2025-09-07 16:57:38,186 - __main__ - INFO - Starting analysis iteration 1/14
+2025-09-07 16:57:40,786 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:40] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:57:43,783 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:43] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:57:43,880 - __main__ - INFO - Signal plan computed: [29.7, 16.7, 5.0, 16.7]s green times
+2025-09-07 16:57:43,880 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:57:43,883 - __main__ - INFO - Iteration 1 completed in 5.7s. Total vehicles: 43
+2025-09-07 16:57:43,884 - __main__ - INFO - Starting analysis iteration 2/14
+2025-09-07 16:57:46,794 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:46] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:57:47,019 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:47] "GET /static_results/lane1_orig.jpg?t=1757244466892 HTTP/1.1" 200 -
+2025-09-07 16:57:47,024 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:47] "GET /static_results/lane1.jpg?t=1757244466892 HTTP/1.1" 200 -
+2025-09-07 16:57:47,039 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:47] "GET /static_results/lane2_orig.jpg?t=1757244466892 HTTP/1.1" 200 -
+2025-09-07 16:57:47,040 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:47] "GET /static_results/lane2.jpg?t=1757244466893 HTTP/1.1" 200 -
+2025-09-07 16:57:47,118 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:47] "GET /static_results/lane3_orig.jpg?t=1757244466893 HTTP/1.1" 200 -
+2025-09-07 16:57:47,150 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:47] "GET /static_results/lane3.jpg?t=1757244466893 HTTP/1.1" 200 -
+2025-09-07 16:57:47,154 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:47] "GET /static_results/lane4_orig.jpg?t=1757244466893 HTTP/1.1" 200 -
+2025-09-07 16:57:47,187 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:47] "GET /static_results/lane4.jpg?t=1757244466893 HTTP/1.1" 200 -
+2025-09-07 16:57:49,786 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:49] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:57:50,889 - __main__ - INFO - Signal plan computed: [12.7, 23.6, 32.7, 10.9]s green times
+2025-09-07 16:57:50,890 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:57:50,892 - __main__ - INFO - Iteration 2 completed in 7.01s. Total vehicles: 33
+2025-09-07 16:57:50,893 - __main__ - INFO - Starting analysis iteration 3/14
+2025-09-07 16:57:52,790 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:52] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:57:52,858 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:52] "GET /static_results/lane1_orig.jpg?t=1757244472800 HTTP/1.1" 200 -
+2025-09-07 16:57:52,959 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:52] "GET /static_results/lane1.jpg?t=1757244472800 HTTP/1.1" 200 -
+2025-09-07 16:57:53,044 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:53] "GET /static_results/lane2_orig.jpg?t=1757244472801 HTTP/1.1" 200 -
+2025-09-07 16:57:53,064 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:53] "GET /static_results/lane2.jpg?t=1757244472801 HTTP/1.1" 200 -
+2025-09-07 16:57:53,185 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:53] "GET /static_results/lane3_orig.jpg?t=1757244472801 HTTP/1.1" 200 -
+2025-09-07 16:57:53,198 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:53] "GET /static_results/lane3.jpg?t=1757244472801 HTTP/1.1" 200 -
+2025-09-07 16:57:53,206 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:53] "GET /static_results/lane4_orig.jpg?t=1757244472801 HTTP/1.1" 200 -
+2025-09-07 16:57:53,266 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:53] "GET /static_results/lane4.jpg?t=1757244472801 HTTP/1.1" 200 -
+2025-09-07 16:57:55,782 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:55] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:57:58,785 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:57:58] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:57:58,886 - __main__ - INFO - Signal plan computed: [15.0, 25.5, 9.0, 15.0]s green times
+2025-09-07 16:57:58,887 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:57:58,888 - __main__ - INFO - Iteration 3 completed in 8.0s. Total vehicles: 40
+2025-09-07 16:57:58,889 - __main__ - INFO - Starting analysis iteration 4/14
+2025-09-07 16:58:01,791 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:01] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:01,917 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:01] "GET /static_results/lane1.jpg?t=1757244481801 HTTP/1.1" 200 -
+2025-09-07 16:58:01,922 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:01] "GET /static_results/lane1_orig.jpg?t=1757244481801 HTTP/1.1" 200 -
+2025-09-07 16:58:02,042 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:02] "GET /static_results/lane2_orig.jpg?t=1757244481801 HTTP/1.1" 200 -
+2025-09-07 16:58:02,071 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:02] "GET /static_results/lane2.jpg?t=1757244481801 HTTP/1.1" 200 -
+2025-09-07 16:58:02,073 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:02] "GET /static_results/lane3_orig.jpg?t=1757244481801 HTTP/1.1" 200 -
+2025-09-07 16:58:02,106 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:02] "GET /static_results/lane3.jpg?t=1757244481801 HTTP/1.1" 200 -
+2025-09-07 16:58:02,149 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:02] "GET /static_results/lane4_orig.jpg?t=1757244481801 HTTP/1.1" 200 -
+2025-09-07 16:58:02,223 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:02] "GET /static_results/lane4.jpg?t=1757244481801 HTTP/1.1" 200 -
+2025-09-07 16:58:04,786 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:04] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:06,392 - __main__ - INFO - Signal plan computed: [26.8, 12.9, 10.7, 20.9]s green times
+2025-09-07 16:58:06,394 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:06,395 - __main__ - INFO - Iteration 4 completed in 7.51s. Total vehicles: 56
+2025-09-07 16:58:06,395 - __main__ - INFO - Starting analysis iteration 5/14
+2025-09-07 16:58:07,796 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:07] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:07,897 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:07] "GET /static_results/lane1.jpg?t=1757244487811 HTTP/1.1" 200 -
+2025-09-07 16:58:07,910 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:07] "GET /static_results/lane1_orig.jpg?t=1757244487811 HTTP/1.1" 200 -
+2025-09-07 16:58:07,971 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:07] "GET /static_results/lane2_orig.jpg?t=1757244487811 HTTP/1.1" 200 -
+2025-09-07 16:58:08,054 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:08] "GET /static_results/lane2.jpg?t=1757244487811 HTTP/1.1" 200 -
+2025-09-07 16:58:08,071 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:08] "GET /static_results/lane3_orig.jpg?t=1757244487811 HTTP/1.1" 200 -
+2025-09-07 16:58:08,097 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:08] "GET /static_results/lane3.jpg?t=1757244487811 HTTP/1.1" 200 -
+2025-09-07 16:58:08,178 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:08] "GET /static_results/lane4_orig.jpg?t=1757244487811 HTTP/1.1" 200 -
+2025-09-07 16:58:08,192 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:08] "GET /static_results/lane4.jpg?t=1757244487811 HTTP/1.1" 200 -
+2025-09-07 16:58:10,782 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:10] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:12,770 - __main__ - INFO - Signal plan computed: [27.4, 12.6, 10.5, 20.5]s green times
+2025-09-07 16:58:12,770 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:12,771 - __main__ - INFO - Iteration 5 completed in 6.38s. Total vehicles: 57
+2025-09-07 16:58:12,772 - __main__ - INFO - Starting analysis iteration 6/14
+2025-09-07 16:58:13,427 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 16:58:13,788 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:13] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:13,837 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:13] "GET /static_results/lane1_orig.jpg?t=1757244493800 HTTP/1.1" 200 -
+2025-09-07 16:58:13,918 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:13] "GET /static_results/lane1.jpg?t=1757244493800 HTTP/1.1" 200 -
+2025-09-07 16:58:13,980 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:13] "GET /static_results/lane2_orig.jpg?t=1757244493800 HTTP/1.1" 200 -
+2025-09-07 16:58:14,188 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:14] "GET /static_results/lane2.jpg?t=1757244493800 HTTP/1.1" 200 -
+2025-09-07 16:58:14,227 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:14] "GET /static_results/lane3_orig.jpg?t=1757244493800 HTTP/1.1" 200 -
+2025-09-07 16:58:14,328 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:14] "GET /static_results/lane3.jpg?t=1757244493800 HTTP/1.1" 200 -
+2025-09-07 16:58:14,338 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:14] "GET /static_results/lane4_orig.jpg?t=1757244493800 HTTP/1.1" 200 -
+2025-09-07 16:58:14,607 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:14] "GET /static_results/lane4.jpg?t=1757244493800 HTTP/1.1" 200 -
+2025-09-07 16:58:14,632 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 16:58:14,747 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 16:58:15,304 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 16:58:16,784 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:16] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:18,900 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 16:58:18,901 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:18,902 - __main__ - INFO - Iteration 6 completed in 6.13s. Total vehicles: 1
+2025-09-07 16:58:18,904 - __main__ - INFO - Starting analysis iteration 7/14
+2025-09-07 16:58:19,698 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 16:58:19,782 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:19] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:19,818 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:19] "GET /static_results/lane1_orig.jpg?t=1757244499789 HTTP/1.1" 200 -
+2025-09-07 16:58:19,859 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:19] "GET /static_results/lane1.jpg?t=1757244499789 HTTP/1.1" 200 -
+2025-09-07 16:58:19,860 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:19] "GET /static_results/lane2_orig.jpg?t=1757244499789 HTTP/1.1" 200 -
+2025-09-07 16:58:19,884 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:19] "GET /static_results/lane2.jpg?t=1757244499789 HTTP/1.1" 200 -
+2025-09-07 16:58:20,015 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:20] "GET /static_results/lane3_orig.jpg?t=1757244499789 HTTP/1.1" 200 -
+2025-09-07 16:58:20,118 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:20] "GET /static_results/lane3.jpg?t=1757244499789 HTTP/1.1" 200 -
+2025-09-07 16:58:20,128 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:20] "GET /static_results/lane4_orig.jpg?t=1757244499789 HTTP/1.1" 200 -
+2025-09-07 16:58:20,186 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:20] "GET /static_results/lane4.jpg?t=1757244499789 HTTP/1.1" 200 -
+2025-09-07 16:58:20,643 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 16:58:20,742 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 16:58:21,201 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 16:58:22,782 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:22] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:24,974 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 16:58:24,975 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:24,975 - __main__ - INFO - Iteration 7 completed in 6.07s. Total vehicles: 1
+2025-09-07 16:58:24,976 - __main__ - INFO - Starting analysis iteration 8/14
+2025-09-07 16:58:25,539 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 16:58:25,797 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:25] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:25,865 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:25] "GET /static_results/lane1_orig.jpg?t=1757244505806 HTTP/1.1" 200 -
+2025-09-07 16:58:25,889 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:25] "GET /static_results/lane1.jpg?t=1757244505806 HTTP/1.1" 200 -
+2025-09-07 16:58:25,923 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:25] "GET /static_results/lane2_orig.jpg?t=1757244505806 HTTP/1.1" 200 -
+2025-09-07 16:58:25,942 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:25] "GET /static_results/lane2.jpg?t=1757244505806 HTTP/1.1" 200 -
+2025-09-07 16:58:26,051 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:26] "GET /static_results/lane3.jpg?t=1757244505806 HTTP/1.1" 200 -
+2025-09-07 16:58:26,089 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:26] "GET /static_results/lane3_orig.jpg?t=1757244505806 HTTP/1.1" 200 -
+2025-09-07 16:58:26,137 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:26] "GET /static_results/lane4_orig.jpg?t=1757244505806 HTTP/1.1" 200 -
+2025-09-07 16:58:26,155 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:26] "GET /static_results/lane4.jpg?t=1757244505806 HTTP/1.1" 200 -
+2025-09-07 16:58:26,353 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 16:58:26,473 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 16:58:26,942 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 16:58:28,787 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:28] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:30,769 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 16:58:30,770 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:30,771 - __main__ - INFO - Iteration 8 completed in 5.79s. Total vehicles: 1
+2025-09-07 16:58:30,772 - __main__ - INFO - Starting analysis iteration 9/14
+2025-09-07 16:58:31,427 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 16:58:31,793 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:31] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:31,852 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:31] "GET /static_results/lane1_orig.jpg?t=1757244511806 HTTP/1.1" 200 -
+2025-09-07 16:58:31,918 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:31] "GET /static_results/lane1.jpg?t=1757244511807 HTTP/1.1" 200 -
+2025-09-07 16:58:31,940 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:31] "GET /static_results/lane2_orig.jpg?t=1757244511807 HTTP/1.1" 200 -
+2025-09-07 16:58:32,031 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:32] "GET /static_results/lane2.jpg?t=1757244511807 HTTP/1.1" 200 -
+2025-09-07 16:58:32,097 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:32] "GET /static_results/lane3_orig.jpg?t=1757244511807 HTTP/1.1" 200 -
+2025-09-07 16:58:32,110 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:32] "GET /static_results/lane3.jpg?t=1757244511807 HTTP/1.1" 200 -
+2025-09-07 16:58:32,116 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 16:58:32,126 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:32] "GET /static_results/lane4_orig.jpg?t=1757244511807 HTTP/1.1" 200 -
+2025-09-07 16:58:32,155 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:32] "GET /static_results/lane4.jpg?t=1757244511807 HTTP/1.1" 200 -
+2025-09-07 16:58:32,333 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 16:58:33,209 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 16:58:34,783 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:34] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:37,667 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 16:58:37,668 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:37,669 - __main__ - INFO - Iteration 9 completed in 6.9s. Total vehicles: 1
+2025-09-07 16:58:37,670 - __main__ - INFO - Starting analysis iteration 10/14
+2025-09-07 16:58:37,788 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:37] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:37,850 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:37] "GET /static_results/lane1_orig.jpg?t=1757244517797 HTTP/1.1" 200 -
+2025-09-07 16:58:37,861 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:37] "GET /static_results/lane1.jpg?t=1757244517797 HTTP/1.1" 200 -
+2025-09-07 16:58:37,863 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:37] "GET /static_results/lane2_orig.jpg?t=1757244517797 HTTP/1.1" 200 -
+2025-09-07 16:58:37,883 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:37] "GET /static_results/lane2.jpg?t=1757244517797 HTTP/1.1" 200 -
+2025-09-07 16:58:37,973 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:37] "GET /static_results/lane3_orig.jpg?t=1757244517797 HTTP/1.1" 200 -
+2025-09-07 16:58:38,049 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:38] "GET /static_results/lane3.jpg?t=1757244517797 HTTP/1.1" 200 -
+2025-09-07 16:58:38,053 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:38] "GET /static_results/lane4_orig.jpg?t=1757244517797 HTTP/1.1" 200 -
+2025-09-07 16:58:38,113 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:38] "GET /static_results/lane4.jpg?t=1757244517797 HTTP/1.1" 200 -
+2025-09-07 16:58:38,633 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 16:58:39,084 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 16:58:39,177 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 16:58:39,627 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 16:58:40,788 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:40] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:43,743 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 16:58:43,745 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:43,750 - __main__ - INFO - Iteration 10 completed in 6.08s. Total vehicles: 1
+2025-09-07 16:58:43,751 - __main__ - INFO - Starting analysis iteration 11/14
+2025-09-07 16:58:43,810 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:43] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:43,936 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:43] "GET /static_results/lane1_orig.jpg?t=1757244523845 HTTP/1.1" 200 -
+2025-09-07 16:58:43,945 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:43] "GET /static_results/lane1.jpg?t=1757244523845 HTTP/1.1" 200 -
+2025-09-07 16:58:43,953 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:43] "GET /static_results/lane2_orig.jpg?t=1757244523845 HTTP/1.1" 200 -
+2025-09-07 16:58:43,970 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:43] "GET /static_results/lane2.jpg?t=1757244523845 HTTP/1.1" 200 -
+2025-09-07 16:58:44,078 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:44] "GET /static_results/lane3_orig.jpg?t=1757244523845 HTTP/1.1" 200 -
+2025-09-07 16:58:44,093 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:44] "GET /static_results/lane3.jpg?t=1757244523845 HTTP/1.1" 200 -
+2025-09-07 16:58:44,121 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:44] "GET /static_results/lane4_orig.jpg?t=1757244523845 HTTP/1.1" 200 -
+2025-09-07 16:58:44,174 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:44] "GET /static_results/lane4.jpg?t=1757244523845 HTTP/1.1" 200 -
+2025-09-07 16:58:44,874 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 16:58:45,381 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 16:58:45,486 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 16:58:46,022 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 16:58:46,782 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:46] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:47,670 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 16:58:47,670 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:47,671 - __main__ - INFO - Iteration 11 completed in 3.92s. Total vehicles: 1
+2025-09-07 16:58:48,751 - __main__ - INFO - Starting analysis iteration 12/14
+2025-09-07 16:58:49,068 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 16:58:49,328 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 16:58:49,375 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 16:58:49,617 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 16:58:50,618 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:50] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:50,672 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:50] "GET /static_results/lane1_orig.jpg?t=1757244530635 HTTP/1.1" 200 -
+2025-09-07 16:58:50,676 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:50] "GET /static_results/lane1.jpg?t=1757244530640 HTTP/1.1" 200 -
+2025-09-07 16:58:50,681 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:50] "GET /static_results/lane2_orig.jpg?t=1757244530641 HTTP/1.1" 200 -
+2025-09-07 16:58:50,713 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:50] "GET /static_results/lane2.jpg?t=1757244530641 HTTP/1.1" 200 -
+2025-09-07 16:58:50,717 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:50] "GET /static_results/lane3_orig.jpg?t=1757244530641 HTTP/1.1" 200 -
+2025-09-07 16:58:50,721 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:50] "GET /static_results/lane3.jpg?t=1757244530641 HTTP/1.1" 200 -
+2025-09-07 16:58:50,743 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:50] "GET /static_results/lane4_orig.jpg?t=1757244530641 HTTP/1.1" 200 -
+2025-09-07 16:58:50,745 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:50] "GET /static_results/lane4.jpg?t=1757244530641 HTTP/1.1" 200 -
+2025-09-07 16:58:51,106 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 16:58:51,107 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:51,107 - __main__ - INFO - Iteration 12 completed in 2.36s. Total vehicles: 1
+2025-09-07 16:58:53,617 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:53] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:53,643 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:53] "GET /static_results/lane1.jpg?t=1757244533622 HTTP/1.1" 200 -
+2025-09-07 16:58:53,644 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:53] "GET /static_results/lane1_orig.jpg?t=1757244533622 HTTP/1.1" 200 -
+2025-09-07 16:58:53,646 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:53] "GET /static_results/lane2_orig.jpg?t=1757244533622 HTTP/1.1" 200 -
+2025-09-07 16:58:53,687 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:53] "GET /static_results/lane2.jpg?t=1757244533622 HTTP/1.1" 200 -
+2025-09-07 16:58:53,690 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:53] "GET /static_results/lane3_orig.jpg?t=1757244533622 HTTP/1.1" 200 -
+2025-09-07 16:58:53,695 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:53] "GET /static_results/lane3.jpg?t=1757244533622 HTTP/1.1" 200 -
+2025-09-07 16:58:53,718 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:53] "GET /static_results/lane4_orig.jpg?t=1757244533622 HTTP/1.1" 200 -
+2025-09-07 16:58:53,720 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:53] "GET /static_results/lane4.jpg?t=1757244533622 HTTP/1.1" 200 -
+2025-09-07 16:58:53,753 - __main__ - INFO - Starting analysis iteration 13/14
+2025-09-07 16:58:54,034 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 16:58:54,271 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 16:58:54,324 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 16:58:54,664 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 16:58:56,028 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 16:58:56,028 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 16:58:56,029 - __main__ - INFO - Iteration 13 completed in 2.28s. Total vehicles: 1
+2025-09-07 16:58:56,696 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:56] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 16:58:56,725 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:56] "GET /static_results/lane1_orig.jpg?t=1757244536701 HTTP/1.1" 200 -
+2025-09-07 16:58:56,732 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:56] "GET /static_results/lane1.jpg?t=1757244536702 HTTP/1.1" 200 -
+2025-09-07 16:58:56,736 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:56] "GET /static_results/lane2_orig.jpg?t=1757244536702 HTTP/1.1" 200 -
+2025-09-07 16:58:56,754 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:56] "GET /static_results/lane3_orig.jpg?t=1757244536702 HTTP/1.1" 200 -
+2025-09-07 16:58:56,754 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:56] "GET /static_results/lane2.jpg?t=1757244536702 HTTP/1.1" 200 -
+2025-09-07 16:58:56,755 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:56] "GET /static_results/lane3.jpg?t=1757244536702 HTTP/1.1" 200 -
+2025-09-07 16:58:56,770 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:56] "GET /static_results/lane4_orig.jpg?t=1757244536702 HTTP/1.1" 200 -
+2025-09-07 16:58:56,771 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:56] "GET /static_results/lane4.jpg?t=1757244536702 HTTP/1.1" 200 -
+2025-09-07 16:58:58,843 - __main__ - INFO - Video analysis completed
+2025-09-07 16:58:58,854 - __main__ - INFO - Analysis stopped by user request
+2025-09-07 16:58:58,855 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 16:58:58] "POST /stop_analysis HTTP/1.1" 200 -
+2025-09-07 17:02:56,904 - __main__ - INFO - Created/verified directory: uploads
+2025-09-07 17:02:56,906 - __main__ - INFO - Created/verified directory: results
+2025-09-07 17:02:56,908 - __main__ - INFO - Created/verified directory: static_results
+2025-09-07 17:02:57,046 - __main__ - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 17:02:57,051 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 17:02:57,052 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 17:02:57,052 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 17:02:57,053 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 17:02:57,053 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 17:02:57,054 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 17:02:57,086 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 17:02:57,087 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 17:03:07,829 - __main__ - INFO - Application shutdown complete
+2025-09-07 17:03:20,803 - __main__ - INFO - Created/verified directory: uploads
+2025-09-07 17:03:20,804 - __main__ - INFO - Created/verified directory: results
+2025-09-07 17:03:20,805 - __main__ - INFO - Created/verified directory: static_results
+2025-09-07 17:03:20,919 - __main__ - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 17:03:20,923 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 17:03:20,924 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 17:03:20,924 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 17:03:20,925 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 17:03:20,925 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 17:03:20,925 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 17:03:20,938 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 17:03:20,938 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 17:03:39,334 - __main__ - INFO - Application shutdown complete
+2025-09-07 17:04:17,952 - app - INFO - Created/verified directory: uploads
+2025-09-07 17:04:17,953 - app - INFO - Created/verified directory: results
+2025-09-07 17:04:17,954 - app - INFO - Created/verified directory: static_results
+2025-09-07 17:04:18,052 - app - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 17:04:34,266 - __main__ - INFO - Created/verified directory: uploads
+2025-09-07 17:04:34,267 - __main__ - INFO - Created/verified directory: results
+2025-09-07 17:04:34,268 - __main__ - INFO - Created/verified directory: static_results
+2025-09-07 17:04:34,375 - __main__ - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 17:04:34,380 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 17:04:34,381 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 17:04:34,381 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 17:04:34,382 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 17:04:34,382 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 17:04:34,382 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 17:04:34,396 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 17:04:34,397 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 17:04:37,231 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:04:37] "GET / HTTP/1.1" 200 -
+2025-09-07 17:04:37,355 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:04:37] "GET /health HTTP/1.1" 200 -
+2025-09-07 17:04:37,528 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:04:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-07 17:04:59,610 - __main__ - INFO - Successfully uploaded: video-tl -> lane1.mp4
+2025-09-07 17:04:59,835 - __main__ - INFO - Successfully uploaded: video-tr -> lane2.mp4
+2025-09-07 17:04:59,936 - __main__ - INFO - Successfully uploaded: video-bl -> lane3.mp4
+2025-09-07 17:05:00,098 - __main__ - INFO - Successfully uploaded: video-br -> lane4.mp4
+2025-09-07 17:05:00,131 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:00] "POST /upload_videos HTTP/1.1" 200 -
+2025-09-07 17:05:00,179 - __main__ - INFO - Starting video analysis: 4 videos, 5s interval, 20 max iterations
+2025-09-07 17:05:00,180 - __main__ - INFO - Analysis started with 4 videos, 5s interval, 20 max iterations
+2025-09-07 17:05:00,182 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:00] "POST /start_analysis HTTP/1.1" 200 -
+2025-09-07 17:05:00,547 - __main__ - INFO - Starting analysis iteration 1/20
+2025-09-07 17:05:03,211 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:03] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:05:05,533 - __main__ - INFO - Signal plan computed: [29.7, 16.7, 5.0, 16.7]s green times
+2025-09-07 17:05:05,535 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:05:05,538 - __main__ - INFO - Iteration 1 completed in 4.99s. Total vehicles: 43
+2025-09-07 17:05:05,547 - __main__ - INFO - Starting analysis iteration 2/20
+2025-09-07 17:05:06,214 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:06] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:05:06,432 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:06] "GET /static_results/lane1_orig.jpg?t=1757244906303 HTTP/1.1" 200 -
+2025-09-07 17:05:06,449 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:06] "GET /static_results/lane1.jpg?t=1757244906305 HTTP/1.1" 200 -
+2025-09-07 17:05:06,488 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:06] "GET /static_results/lane2_orig.jpg?t=1757244906305 HTTP/1.1" 200 -
+2025-09-07 17:05:06,498 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:06] "GET /static_results/lane2.jpg?t=1757244906305 HTTP/1.1" 200 -
+2025-09-07 17:05:06,507 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:06] "GET /static_results/lane3_orig.jpg?t=1757244906305 HTTP/1.1" 200 -
+2025-09-07 17:05:06,521 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:06] "GET /static_results/lane3.jpg?t=1757244906305 HTTP/1.1" 200 -
+2025-09-07 17:05:06,523 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:06] "GET /static_results/lane4_orig.jpg?t=1757244906305 HTTP/1.1" 200 -
+2025-09-07 17:05:06,540 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:06] "GET /static_results/lane4.jpg?t=1757244906305 HTTP/1.1" 200 -
+2025-09-07 17:05:09,204 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:09] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:05:12,205 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:12] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:05:12,553 - __main__ - INFO - Signal plan computed: [12.7, 23.6, 32.7, 10.9]s green times
+2025-09-07 17:05:12,554 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:05:12,555 - __main__ - INFO - Iteration 2 completed in 7.01s. Total vehicles: 33
+2025-09-07 17:05:12,556 - __main__ - INFO - Starting analysis iteration 3/20
+2025-09-07 17:05:15,215 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:15] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:05:15,278 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:15] "GET /static_results/lane1_orig.jpg?t=1757244915226 HTTP/1.1" 200 -
+2025-09-07 17:05:15,313 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:15] "GET /static_results/lane1.jpg?t=1757244915227 HTTP/1.1" 200 -
+2025-09-07 17:05:15,353 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:15] "GET /static_results/lane2_orig.jpg?t=1757244915227 HTTP/1.1" 200 -
+2025-09-07 17:05:15,396 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:15] "GET /static_results/lane2.jpg?t=1757244915227 HTTP/1.1" 200 -
+2025-09-07 17:05:15,433 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:15] "GET /static_results/lane3_orig.jpg?t=1757244915227 HTTP/1.1" 200 -
+2025-09-07 17:05:15,459 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:15] "GET /static_results/lane3.jpg?t=1757244915227 HTTP/1.1" 200 -
+2025-09-07 17:05:15,515 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:15] "GET /static_results/lane4_orig.jpg?t=1757244915227 HTTP/1.1" 200 -
+2025-09-07 17:05:15,518 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:15] "GET /static_results/lane4.jpg?t=1757244915227 HTTP/1.1" 200 -
+2025-09-07 17:05:18,226 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:18] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:05:18,942 - __main__ - INFO - Signal plan computed: [15.0, 25.5, 9.0, 15.0]s green times
+2025-09-07 17:05:18,943 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:05:18,944 - __main__ - INFO - Iteration 3 completed in 6.39s. Total vehicles: 40
+2025-09-07 17:05:19,083 - __main__ - INFO - Video analysis completed
+2025-09-07 17:05:19,100 - __main__ - INFO - Analysis stopped by user request
+2025-09-07 17:05:19,102 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:19] "POST /stop_analysis HTTP/1.1" 200 -
+2025-09-07 17:05:25,848 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:25] "GET /?id=b1f08549-250d-48d2-86d4-4b708d05ae9c&vscodeBrowserReqId=1757244925495 HTTP/1.1" 200 -
+2025-09-07 17:05:26,110 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:05:26] "GET /health HTTP/1.1" 200 -
+2025-09-07 17:06:21,243 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:06:21] "GET / HTTP/1.1" 200 -
+2025-09-07 17:06:21,352 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:06:21] "GET /health HTTP/1.1" 200 -
+2025-09-07 17:07:20,900 - __main__ - INFO - Application shutdown complete
+2025-09-07 17:07:45,081 - __main__ - INFO - Created/verified directory: uploads
+2025-09-07 17:07:45,082 - __main__ - INFO - Created/verified directory: results
+2025-09-07 17:07:45,083 - __main__ - INFO - Created/verified directory: static_results
+2025-09-07 17:07:45,228 - __main__ - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 17:07:45,234 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 17:07:45,234 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 17:07:45,235 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 17:07:45,235 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 17:07:45,236 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 17:07:45,236 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 17:07:45,259 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 17:07:45,260 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 17:07:55,372 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:07:55] "GET / HTTP/1.1" 200 -
+2025-09-07 17:07:55,466 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:07:55] "GET /health HTTP/1.1" 200 -
+2025-09-07 17:07:57,851 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:07:57] "GET / HTTP/1.1" 200 -
+2025-09-07 17:07:57,935 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:07:57] "GET /health HTTP/1.1" 200 -
+2025-09-07 17:08:25,356 - __main__ - INFO - Successfully uploaded: video-tl -> lane1.mp4
+2025-09-07 17:08:25,604 - __main__ - INFO - Successfully uploaded: video-tr -> lane2.mp4
+2025-09-07 17:08:25,797 - __main__ - INFO - Successfully uploaded: video-bl -> lane3.mp4
+2025-09-07 17:08:26,062 - __main__ - INFO - Successfully uploaded: video-br -> lane4.mp4
+2025-09-07 17:08:26,128 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:26] "POST /upload_videos HTTP/1.1" 200 -
+2025-09-07 17:08:26,165 - __main__ - INFO - Starting video analysis: 4 videos, 5s interval, 10 max iterations
+2025-09-07 17:08:26,166 - __main__ - INFO - Analysis started with 4 videos, 5s interval, 10 max iterations
+2025-09-07 17:08:26,168 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:26] "POST /start_analysis HTTP/1.1" 200 -
+2025-09-07 17:08:26,541 - __main__ - INFO - Starting analysis iteration 1/10
+2025-09-07 17:08:29,202 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:29] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:31,148 - __main__ - INFO - Signal plan computed: [29.7, 16.7, 5.0, 16.7]s green times
+2025-09-07 17:08:31,150 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:08:31,151 - __main__ - INFO - Iteration 1 completed in 4.61s. Total vehicles: 43
+2025-09-07 17:08:31,543 - __main__ - INFO - Starting analysis iteration 2/10
+2025-09-07 17:08:32,201 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:32] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:32,388 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:32] "GET /static_results/lane1_orig.jpg?t=1757245112280 HTTP/1.1" 200 -
+2025-09-07 17:08:32,388 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:32] "GET /static_results/lane1.jpg?t=1757245112280 HTTP/1.1" 200 -
+2025-09-07 17:08:32,397 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:32] "GET /static_results/lane2_orig.jpg?t=1757245112280 HTTP/1.1" 200 -
+2025-09-07 17:08:32,405 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:32] "GET /static_results/lane2.jpg?t=1757245112280 HTTP/1.1" 200 -
+2025-09-07 17:08:32,426 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:32] "GET /static_results/lane3_orig.jpg?t=1757245112280 HTTP/1.1" 200 -
+2025-09-07 17:08:32,482 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:32] "GET /static_results/lane3.jpg?t=1757245112280 HTTP/1.1" 200 -
+2025-09-07 17:08:32,487 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:32] "GET /static_results/lane4_orig.jpg?t=1757245112280 HTTP/1.1" 200 -
+2025-09-07 17:08:32,493 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:32] "GET /static_results/lane4.jpg?t=1757245112280 HTTP/1.1" 200 -
+2025-09-07 17:08:35,192 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:35] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:37,784 - __main__ - INFO - Signal plan computed: [12.7, 23.6, 32.7, 10.9]s green times
+2025-09-07 17:08:37,785 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:08:37,786 - __main__ - INFO - Iteration 2 completed in 6.24s. Total vehicles: 33
+2025-09-07 17:08:37,787 - __main__ - INFO - Starting analysis iteration 3/10
+2025-09-07 17:08:38,200 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:38] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:38,229 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:38] "GET /static_results/lane1_orig.jpg?t=1757245118210 HTTP/1.1" 200 -
+2025-09-07 17:08:38,235 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:38] "GET /static_results/lane1.jpg?t=1757245118210 HTTP/1.1" 200 -
+2025-09-07 17:08:38,246 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:38] "GET /static_results/lane2_orig.jpg?t=1757245118210 HTTP/1.1" 200 -
+2025-09-07 17:08:38,257 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:38] "GET /static_results/lane2.jpg?t=1757245118210 HTTP/1.1" 200 -
+2025-09-07 17:08:38,273 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:38] "GET /static_results/lane3_orig.jpg?t=1757245118210 HTTP/1.1" 200 -
+2025-09-07 17:08:38,301 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:38] "GET /static_results/lane3.jpg?t=1757245118210 HTTP/1.1" 200 -
+2025-09-07 17:08:38,313 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:38] "GET /static_results/lane4.jpg?t=1757245118210 HTTP/1.1" 200 -
+2025-09-07 17:08:38,315 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:38] "GET /static_results/lane4_orig.jpg?t=1757245118210 HTTP/1.1" 200 -
+2025-09-07 17:08:41,192 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:41] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:44,055 - __main__ - INFO - Signal plan computed: [15.0, 25.5, 9.0, 15.0]s green times
+2025-09-07 17:08:44,056 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:08:44,057 - __main__ - INFO - Iteration 3 completed in 6.27s. Total vehicles: 40
+2025-09-07 17:08:44,058 - __main__ - INFO - Starting analysis iteration 4/10
+2025-09-07 17:08:44,198 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:44] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:44,252 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:44] "GET /static_results/lane1_orig.jpg?t=1757245124214 HTTP/1.1" 200 -
+2025-09-07 17:08:44,284 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:44] "GET /static_results/lane1.jpg?t=1757245124214 HTTP/1.1" 200 -
+2025-09-07 17:08:44,294 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:44] "GET /static_results/lane2_orig.jpg?t=1757245124214 HTTP/1.1" 200 -
+2025-09-07 17:08:44,339 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:44] "GET /static_results/lane2.jpg?t=1757245124214 HTTP/1.1" 200 -
+2025-09-07 17:08:44,392 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:44] "GET /static_results/lane3_orig.jpg?t=1757245124214 HTTP/1.1" 200 -
+2025-09-07 17:08:44,393 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:44] "GET /static_results/lane3.jpg?t=1757245124214 HTTP/1.1" 200 -
+2025-09-07 17:08:44,423 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:44] "GET /static_results/lane4_orig.jpg?t=1757245124214 HTTP/1.1" 200 -
+2025-09-07 17:08:44,445 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:44] "GET /static_results/lane4.jpg?t=1757245124214 HTTP/1.1" 200 -
+2025-09-07 17:08:47,200 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:47] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:50,192 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:50] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:50,837 - __main__ - INFO - Signal plan computed: [26.8, 12.9, 10.7, 20.9]s green times
+2025-09-07 17:08:50,839 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:08:50,839 - __main__ - INFO - Iteration 4 completed in 6.78s. Total vehicles: 56
+2025-09-07 17:08:50,840 - __main__ - INFO - Starting analysis iteration 5/10
+2025-09-07 17:08:53,198 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:53] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:53,269 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:53] "GET /static_results/lane1_orig.jpg?t=1757245133211 HTTP/1.1" 200 -
+2025-09-07 17:08:53,286 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:53] "GET /static_results/lane1.jpg?t=1757245133211 HTTP/1.1" 200 -
+2025-09-07 17:08:53,304 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:53] "GET /static_results/lane2_orig.jpg?t=1757245133211 HTTP/1.1" 200 -
+2025-09-07 17:08:53,370 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:53] "GET /static_results/lane2.jpg?t=1757245133211 HTTP/1.1" 200 -
+2025-09-07 17:08:53,378 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:53] "GET /static_results/lane3_orig.jpg?t=1757245133211 HTTP/1.1" 200 -
+2025-09-07 17:08:53,385 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:53] "GET /static_results/lane3.jpg?t=1757245133211 HTTP/1.1" 200 -
+2025-09-07 17:08:53,495 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:53] "GET /static_results/lane4_orig.jpg?t=1757245133212 HTTP/1.1" 200 -
+2025-09-07 17:08:53,517 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:53] "GET /static_results/lane4.jpg?t=1757245133212 HTTP/1.1" 200 -
+2025-09-07 17:08:56,198 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:56] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:57,148 - __main__ - INFO - Signal plan computed: [27.4, 12.6, 10.5, 20.5]s green times
+2025-09-07 17:08:57,149 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:08:57,150 - __main__ - INFO - Iteration 5 completed in 6.31s. Total vehicles: 57
+2025-09-07 17:08:57,150 - __main__ - INFO - Starting analysis iteration 6/10
+2025-09-07 17:08:57,622 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:08:58,049 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:08:58,129 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:08:58,562 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:08:59,195 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:59] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:08:59,244 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:59] "GET /static_results/lane1_orig.jpg?t=1757245139205 HTTP/1.1" 200 -
+2025-09-07 17:08:59,249 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:59] "GET /static_results/lane2.jpg?t=1757245139205 HTTP/1.1" 200 -
+2025-09-07 17:08:59,245 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:59] "GET /static_results/lane1.jpg?t=1757245139205 HTTP/1.1" 200 -
+2025-09-07 17:08:59,247 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:59] "GET /static_results/lane2_orig.jpg?t=1757245139205 HTTP/1.1" 200 -
+2025-09-07 17:08:59,280 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:59] "GET /static_results/lane3_orig.jpg?t=1757245139205 HTTP/1.1" 200 -
+2025-09-07 17:08:59,320 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:59] "GET /static_results/lane3.jpg?t=1757245139205 HTTP/1.1" 200 -
+2025-09-07 17:08:59,328 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:59] "GET /static_results/lane4_orig.jpg?t=1757245139205 HTTP/1.1" 200 -
+2025-09-07 17:08:59,341 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:08:59] "GET /static_results/lane4.jpg?t=1757245139205 HTTP/1.1" 200 -
+2025-09-07 17:09:01,918 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:09:01,919 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:09:01,921 - __main__ - INFO - Iteration 6 completed in 4.77s. Total vehicles: 1
+2025-09-07 17:09:02,151 - __main__ - INFO - Starting analysis iteration 7/10
+2025-09-07 17:09:02,196 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:02] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:09:02,237 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:02] "GET /static_results/lane1_orig.jpg?t=1757245142205 HTTP/1.1" 200 -
+2025-09-07 17:09:02,244 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:02] "GET /static_results/lane2_orig.jpg?t=1757245142206 HTTP/1.1" 200 -
+2025-09-07 17:09:02,246 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:02] "GET /static_results/lane1.jpg?t=1757245142205 HTTP/1.1" 200 -
+2025-09-07 17:09:02,248 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:02] "GET /static_results/lane2.jpg?t=1757245142206 HTTP/1.1" 200 -
+2025-09-07 17:09:02,249 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:02] "GET /static_results/lane3_orig.jpg?t=1757245142206 HTTP/1.1" 200 -
+2025-09-07 17:09:02,286 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:02] "GET /static_results/lane3.jpg?t=1757245142206 HTTP/1.1" 200 -
+2025-09-07 17:09:02,320 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:02] "GET /static_results/lane4.jpg?t=1757245142206 HTTP/1.1" 200 -
+2025-09-07 17:09:02,322 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:02] "GET /static_results/lane4_orig.jpg?t=1757245142206 HTTP/1.1" 200 -
+2025-09-07 17:09:02,758 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:09:03,204 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:09:03,285 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:09:03,722 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:09:05,203 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:05] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:09:07,083 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:09:07,084 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:09:07,085 - __main__ - INFO - Iteration 7 completed in 4.93s. Total vehicles: 1
+2025-09-07 17:09:07,152 - __main__ - INFO - Starting analysis iteration 8/10
+2025-09-07 17:09:07,670 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:09:08,116 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:09:08,197 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:08] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:09:08,205 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:09:08,234 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:08] "GET /static_results/lane1_orig.jpg?t=1757245148208 HTTP/1.1" 200 -
+2025-09-07 17:09:08,240 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:08] "GET /static_results/lane1.jpg?t=1757245148208 HTTP/1.1" 200 -
+2025-09-07 17:09:08,251 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:08] "GET /static_results/lane2_orig.jpg?t=1757245148208 HTTP/1.1" 200 -
+2025-09-07 17:09:08,253 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:08] "GET /static_results/lane3_orig.jpg?t=1757245148208 HTTP/1.1" 200 -
+2025-09-07 17:09:08,255 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:08] "GET /static_results/lane2.jpg?t=1757245148208 HTTP/1.1" 200 -
+2025-09-07 17:09:08,302 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:08] "GET /static_results/lane3.jpg?t=1757245148208 HTTP/1.1" 200 -
+2025-09-07 17:09:08,320 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:08] "GET /static_results/lane4_orig.jpg?t=1757245148208 HTTP/1.1" 200 -
+2025-09-07 17:09:08,324 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:08] "GET /static_results/lane4.jpg?t=1757245148208 HTTP/1.1" 200 -
+2025-09-07 17:09:08,751 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:09:11,188 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:11] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:09:12,106 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:09:12,107 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:09:12,107 - __main__ - INFO - Iteration 8 completed in 4.96s. Total vehicles: 1
+2025-09-07 17:09:12,153 - __main__ - INFO - Starting analysis iteration 9/10
+2025-09-07 17:09:12,635 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:09:13,091 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:09:13,168 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:09:13,614 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:09:14,192 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:14] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:09:14,231 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:14] "GET /static_results/lane1_orig.jpg?t=1757245154198 HTTP/1.1" 200 -
+2025-09-07 17:09:14,240 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:14] "GET /static_results/lane2_orig.jpg?t=1757245154198 HTTP/1.1" 200 -
+2025-09-07 17:09:14,246 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:14] "GET /static_results/lane1.jpg?t=1757245154198 HTTP/1.1" 200 -
+2025-09-07 17:09:14,274 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:14] "GET /static_results/lane2.jpg?t=1757245154198 HTTP/1.1" 200 -
+2025-09-07 17:09:14,290 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:14] "GET /static_results/lane3_orig.jpg?t=1757245154198 HTTP/1.1" 200 -
+2025-09-07 17:09:14,329 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:14] "GET /static_results/lane3.jpg?t=1757245154198 HTTP/1.1" 200 -
+2025-09-07 17:09:14,355 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:14] "GET /static_results/lane4_orig.jpg?t=1757245154198 HTTP/1.1" 200 -
+2025-09-07 17:09:14,365 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:14] "GET /static_results/lane4.jpg?t=1757245154198 HTTP/1.1" 200 -
+2025-09-07 17:09:16,991 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:09:16,992 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:09:16,992 - __main__ - INFO - Iteration 9 completed in 4.84s. Total vehicles: 1
+2025-09-07 17:09:17,153 - __main__ - INFO - Starting analysis iteration 10/10
+2025-09-07 17:09:17,191 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:17] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:09:17,221 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:17] "GET /static_results/lane1_orig.jpg?t=1757245157197 HTTP/1.1" 200 -
+2025-09-07 17:09:17,228 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:17] "GET /static_results/lane1.jpg?t=1757245157197 HTTP/1.1" 200 -
+2025-09-07 17:09:17,238 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:17] "GET /static_results/lane2_orig.jpg?t=1757245157197 HTTP/1.1" 200 -
+2025-09-07 17:09:17,241 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:17] "GET /static_results/lane2.jpg?t=1757245157197 HTTP/1.1" 200 -
+2025-09-07 17:09:17,286 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:17] "GET /static_results/lane3_orig.jpg?t=1757245157197 HTTP/1.1" 200 -
+2025-09-07 17:09:17,321 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:17] "GET /static_results/lane3.jpg?t=1757245157197 HTTP/1.1" 200 -
+2025-09-07 17:09:17,324 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:17] "GET /static_results/lane4_orig.jpg?t=1757245157197 HTTP/1.1" 200 -
+2025-09-07 17:09:17,347 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:17] "GET /static_results/lane4.jpg?t=1757245157197 HTTP/1.1" 200 -
+2025-09-07 17:09:17,784 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:09:18,231 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:09:18,314 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:09:18,772 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:09:20,194 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:20] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:09:22,069 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:09:22,070 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:09:22,071 - __main__ - INFO - Iteration 10 completed in 4.92s. Total vehicles: 1
+2025-09-07 17:09:22,264 - __main__ - INFO - Video analysis completed
+2025-09-07 17:09:23,191 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:23] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:09:23,219 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:23] "GET /static_results/lane1_orig.jpg?t=1757245163198 HTTP/1.1" 200 -
+2025-09-07 17:09:23,229 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:23] "GET /static_results/lane1.jpg?t=1757245163198 HTTP/1.1" 200 -
+2025-09-07 17:09:23,229 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:23] "GET /static_results/lane2_orig.jpg?t=1757245163198 HTTP/1.1" 200 -
+2025-09-07 17:09:23,244 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:23] "GET /static_results/lane2.jpg?t=1757245163198 HTTP/1.1" 200 -
+2025-09-07 17:09:23,255 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:23] "GET /static_results/lane3_orig.jpg?t=1757245163198 HTTP/1.1" 200 -
+2025-09-07 17:09:23,262 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:23] "GET /static_results/lane3.jpg?t=1757245163198 HTTP/1.1" 200 -
+2025-09-07 17:09:23,274 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:23] "GET /static_results/lane4_orig.jpg?t=1757245163198 HTTP/1.1" 200 -
+2025-09-07 17:09:23,297 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:23] "GET /static_results/lane4.jpg?t=1757245163198 HTTP/1.1" 200 -
+2025-09-07 17:09:26,192 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:26] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:09:26,195 - __main__ - INFO - Analysis stopped by user request
+2025-09-07 17:09:26,197 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:09:26] "POST /stop_analysis HTTP/1.1" 200 -
+2025-09-07 17:11:06,033 - __main__ - INFO - Application shutdown complete
+2025-09-07 17:11:12,973 - __main__ - INFO - Created/verified directory: uploads
+2025-09-07 17:11:12,974 - __main__ - INFO - Created/verified directory: results
+2025-09-07 17:11:12,975 - __main__ - INFO - Created/verified directory: static_results
+2025-09-07 17:11:13,087 - __main__ - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 17:11:13,094 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 17:11:13,094 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 17:11:13,095 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 17:11:13,095 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 17:11:13,096 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 17:11:13,096 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 17:11:13,119 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 17:11:13,120 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 17:11:22,572 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:22] "GET / HTTP/1.1" 200 -
+2025-09-07 17:11:22,680 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:22] "GET /health HTTP/1.1" 200 -
+2025-09-07 17:11:49,353 - __main__ - INFO - Successfully uploaded: video-tl -> lane1.mp4
+2025-09-07 17:11:49,571 - __main__ - INFO - Successfully uploaded: video-tr -> lane2.mp4
+2025-09-07 17:11:49,693 - __main__ - INFO - Successfully uploaded: video-bl -> lane3.mp4
+2025-09-07 17:11:49,851 - __main__ - INFO - Successfully uploaded: video-br -> lane4.mp4
+2025-09-07 17:11:49,881 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:49] "POST /upload_videos HTTP/1.1" 200 -
+2025-09-07 17:11:49,908 - __main__ - INFO - Starting video analysis: 4 videos, 5s interval, 10 max iterations
+2025-09-07 17:11:49,908 - __main__ - INFO - Analysis started with 4 videos, 5s interval, 10 max iterations
+2025-09-07 17:11:49,911 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:49] "POST /start_analysis HTTP/1.1" 200 -
+2025-09-07 17:11:50,304 - __main__ - INFO - Starting analysis iteration 1/10
+2025-09-07 17:11:52,940 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:52] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:11:54,654 - __main__ - INFO - Signal plan computed: [29.7, 16.7, 5.0, 16.7]s green times
+2025-09-07 17:11:54,656 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:11:54,658 - __main__ - INFO - Iteration 1 completed in 4.35s. Total vehicles: 43
+2025-09-07 17:11:55,304 - __main__ - INFO - Starting analysis iteration 2/10
+2025-09-07 17:11:55,945 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:55] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:11:56,159 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:56] "GET /static_results/lane1_orig.jpg?t=1757245316032 HTTP/1.1" 200 -
+2025-09-07 17:11:56,167 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:56] "GET /static_results/lane1.jpg?t=1757245316033 HTTP/1.1" 200 -
+2025-09-07 17:11:56,170 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:56] "GET /static_results/lane2_orig.jpg?t=1757245316033 HTTP/1.1" 200 -
+2025-09-07 17:11:56,205 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:56] "GET /static_results/lane2.jpg?t=1757245316033 HTTP/1.1" 200 -
+2025-09-07 17:11:56,216 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:56] "GET /static_results/lane3_orig.jpg?t=1757245316033 HTTP/1.1" 200 -
+2025-09-07 17:11:56,217 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:56] "GET /static_results/lane3.jpg?t=1757245316033 HTTP/1.1" 200 -
+2025-09-07 17:11:56,226 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:56] "GET /static_results/lane4_orig.jpg?t=1757245316033 HTTP/1.1" 200 -
+2025-09-07 17:11:56,234 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:56] "GET /static_results/lane4.jpg?t=1757245316033 HTTP/1.1" 200 -
+2025-09-07 17:11:58,947 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:11:58] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:01,692 - __main__ - INFO - Signal plan computed: [12.7, 23.6, 32.7, 10.9]s green times
+2025-09-07 17:12:01,693 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:12:01,694 - __main__ - INFO - Iteration 2 completed in 6.39s. Total vehicles: 33
+2025-09-07 17:12:01,695 - __main__ - INFO - Starting analysis iteration 3/10
+2025-09-07 17:12:01,944 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:01] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:01,997 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:01] "GET /static_results/lane1_orig.jpg?t=1757245321958 HTTP/1.1" 200 -
+2025-09-07 17:12:02,009 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:02] "GET /static_results/lane1.jpg?t=1757245321958 HTTP/1.1" 200 -
+2025-09-07 17:12:02,038 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:02] "GET /static_results/lane2_orig.jpg?t=1757245321958 HTTP/1.1" 200 -
+2025-09-07 17:12:02,102 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:02] "GET /static_results/lane2.jpg?t=1757245321958 HTTP/1.1" 200 -
+2025-09-07 17:12:02,132 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:02] "GET /static_results/lane3_orig.jpg?t=1757245321958 HTTP/1.1" 200 -
+2025-09-07 17:12:02,154 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:02] "GET /static_results/lane3.jpg?t=1757245321958 HTTP/1.1" 200 -
+2025-09-07 17:12:02,195 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:02] "GET /static_results/lane4_orig.jpg?t=1757245321958 HTTP/1.1" 200 -
+2025-09-07 17:12:02,212 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:02] "GET /static_results/lane4.jpg?t=1757245321958 HTTP/1.1" 200 -
+2025-09-07 17:12:04,939 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:04] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:07,937 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:07] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:08,237 - __main__ - INFO - Signal plan computed: [15.0, 25.5, 9.0, 15.0]s green times
+2025-09-07 17:12:08,238 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:12:08,239 - __main__ - INFO - Iteration 3 completed in 6.54s. Total vehicles: 40
+2025-09-07 17:12:08,240 - __main__ - INFO - Starting analysis iteration 4/10
+2025-09-07 17:12:10,948 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:10] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:11,008 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:11] "GET /static_results/lane1_orig.jpg?t=1757245330962 HTTP/1.1" 200 -
+2025-09-07 17:12:11,022 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:11] "GET /static_results/lane1.jpg?t=1757245330962 HTTP/1.1" 200 -
+2025-09-07 17:12:11,079 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:11] "GET /static_results/lane2_orig.jpg?t=1757245330962 HTTP/1.1" 200 -
+2025-09-07 17:12:11,079 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:11] "GET /static_results/lane2.jpg?t=1757245330962 HTTP/1.1" 200 -
+2025-09-07 17:12:11,112 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:11] "GET /static_results/lane3_orig.jpg?t=1757245330962 HTTP/1.1" 200 -
+2025-09-07 17:12:11,149 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:11] "GET /static_results/lane3.jpg?t=1757245330962 HTTP/1.1" 200 -
+2025-09-07 17:12:11,156 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:11] "GET /static_results/lane4_orig.jpg?t=1757245330962 HTTP/1.1" 200 -
+2025-09-07 17:12:11,195 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:11] "GET /static_results/lane4.jpg?t=1757245330962 HTTP/1.1" 200 -
+2025-09-07 17:12:13,938 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:13] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:14,647 - __main__ - INFO - Signal plan computed: [26.8, 12.9, 10.7, 20.9]s green times
+2025-09-07 17:12:14,648 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:12:14,648 - __main__ - INFO - Iteration 4 completed in 6.41s. Total vehicles: 56
+2025-09-07 17:12:14,649 - __main__ - INFO - Starting analysis iteration 5/10
+2025-09-07 17:12:16,936 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:16] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:16,981 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:16] "GET /static_results/lane1_orig.jpg?t=1757245336946 HTTP/1.1" 200 -
+2025-09-07 17:12:16,998 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:16] "GET /static_results/lane2_orig.jpg?t=1757245336946 HTTP/1.1" 200 -
+2025-09-07 17:12:17,011 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:17] "GET /static_results/lane1.jpg?t=1757245336946 HTTP/1.1" 200 -
+2025-09-07 17:12:17,019 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:17] "GET /static_results/lane2.jpg?t=1757245336946 HTTP/1.1" 200 -
+2025-09-07 17:12:17,045 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:17] "GET /static_results/lane3_orig.jpg?t=1757245336946 HTTP/1.1" 200 -
+2025-09-07 17:12:17,065 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:17] "GET /static_results/lane3.jpg?t=1757245336946 HTTP/1.1" 200 -
+2025-09-07 17:12:17,072 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:17] "GET /static_results/lane4_orig.jpg?t=1757245336946 HTTP/1.1" 200 -
+2025-09-07 17:12:17,075 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:17] "GET /static_results/lane4.jpg?t=1757245336946 HTTP/1.1" 200 -
+2025-09-07 17:12:19,934 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:19] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:20,020 - __main__ - INFO - Signal plan computed: [27.4, 12.6, 10.5, 20.5]s green times
+2025-09-07 17:12:20,021 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:12:20,022 - __main__ - INFO - Iteration 5 completed in 5.37s. Total vehicles: 57
+2025-09-07 17:12:20,023 - __main__ - INFO - Starting analysis iteration 6/10
+2025-09-07 17:12:20,534 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:12:20,993 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:12:21,079 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:12:21,529 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:12:22,933 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:22] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:22,973 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:22] "GET /static_results/lane1_orig.jpg?t=1757245342941 HTTP/1.1" 200 -
+2025-09-07 17:12:22,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:22] "GET /static_results/lane1.jpg?t=1757245342942 HTTP/1.1" 200 -
+2025-09-07 17:12:22,983 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:22] "GET /static_results/lane2_orig.jpg?t=1757245342942 HTTP/1.1" 200 -
+2025-09-07 17:12:22,997 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:22] "GET /static_results/lane2.jpg?t=1757245342942 HTTP/1.1" 200 -
+2025-09-07 17:12:23,041 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:23] "GET /static_results/lane3_orig.jpg?t=1757245342942 HTTP/1.1" 200 -
+2025-09-07 17:12:23,058 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:23] "GET /static_results/lane3.jpg?t=1757245342942 HTTP/1.1" 200 -
+2025-09-07 17:12:23,065 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:23] "GET /static_results/lane4_orig.jpg?t=1757245342942 HTTP/1.1" 200 -
+2025-09-07 17:12:23,072 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:23] "GET /static_results/lane4.jpg?t=1757245342942 HTTP/1.1" 200 -
+2025-09-07 17:12:24,959 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:12:24,960 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:12:24,961 - __main__ - INFO - Iteration 6 completed in 4.94s. Total vehicles: 1
+2025-09-07 17:12:25,023 - __main__ - INFO - Starting analysis iteration 7/10
+2025-09-07 17:12:25,529 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:12:25,943 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:25] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:25,993 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:25] "GET /static_results/lane1_orig.jpg?t=1757245345959 HTTP/1.1" 200 -
+2025-09-07 17:12:25,994 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:12:26,002 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:26] "GET /static_results/lane1.jpg?t=1757245345959 HTTP/1.1" 200 -
+2025-09-07 17:12:26,011 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:26] "GET /static_results/lane2_orig.jpg?t=1757245345959 HTTP/1.1" 200 -
+2025-09-07 17:12:26,028 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:26] "GET /static_results/lane2.jpg?t=1757245345959 HTTP/1.1" 200 -
+2025-09-07 17:12:26,065 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:26] "GET /static_results/lane3_orig.jpg?t=1757245345959 HTTP/1.1" 200 -
+2025-09-07 17:12:26,070 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:26] "GET /static_results/lane3.jpg?t=1757245345959 HTTP/1.1" 200 -
+2025-09-07 17:12:26,076 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:26] "GET /static_results/lane4_orig.jpg?t=1757245345959 HTTP/1.1" 200 -
+2025-09-07 17:12:26,095 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:26] "GET /static_results/lane4.jpg?t=1757245345959 HTTP/1.1" 200 -
+2025-09-07 17:12:26,155 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:12:26,637 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:12:28,940 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:28] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:30,000 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:12:30,001 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:12:30,002 - __main__ - INFO - Iteration 7 completed in 4.98s. Total vehicles: 1
+2025-09-07 17:12:30,024 - __main__ - INFO - Starting analysis iteration 8/10
+2025-09-07 17:12:30,520 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:12:30,960 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:12:31,041 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:12:31,485 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:12:31,935 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:31] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:31,972 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:31] "GET /static_results/lane1_orig.jpg?t=1757245351941 HTTP/1.1" 200 -
+2025-09-07 17:12:31,981 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:31] "GET /static_results/lane2_orig.jpg?t=1757245351941 HTTP/1.1" 200 -
+2025-09-07 17:12:31,986 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:31] "GET /static_results/lane1.jpg?t=1757245351941 HTTP/1.1" 200 -
+2025-09-07 17:12:31,995 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:31] "GET /static_results/lane2.jpg?t=1757245351941 HTTP/1.1" 200 -
+2025-09-07 17:12:32,021 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:32] "GET /static_results/lane3_orig.jpg?t=1757245351941 HTTP/1.1" 200 -
+2025-09-07 17:12:32,068 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:32] "GET /static_results/lane3.jpg?t=1757245351941 HTTP/1.1" 200 -
+2025-09-07 17:12:32,073 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:32] "GET /static_results/lane4_orig.jpg?t=1757245351941 HTTP/1.1" 200 -
+2025-09-07 17:12:32,087 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:32] "GET /static_results/lane4.jpg?t=1757245351941 HTTP/1.1" 200 -
+2025-09-07 17:12:34,918 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:12:34,919 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:12:34,920 - __main__ - INFO - Iteration 8 completed in 4.9s. Total vehicles: 1
+2025-09-07 17:12:34,933 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:34] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:34,963 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:34] "GET /static_results/lane1_orig.jpg?t=1757245354940 HTTP/1.1" 200 -
+2025-09-07 17:12:34,966 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:34] "GET /static_results/lane1.jpg?t=1757245354940 HTTP/1.1" 200 -
+2025-09-07 17:12:34,967 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:34] "GET /static_results/lane2_orig.jpg?t=1757245354940 HTTP/1.1" 200 -
+2025-09-07 17:12:34,972 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:34] "GET /static_results/lane2.jpg?t=1757245354940 HTTP/1.1" 200 -
+2025-09-07 17:12:34,990 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:34] "GET /static_results/lane3_orig.jpg?t=1757245354940 HTTP/1.1" 200 -
+2025-09-07 17:12:34,992 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:34] "GET /static_results/lane3.jpg?t=1757245354940 HTTP/1.1" 200 -
+2025-09-07 17:12:35,034 - __main__ - INFO - Starting analysis iteration 9/10
+2025-09-07 17:12:35,040 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:35] "GET /static_results/lane4_orig.jpg?t=1757245354940 HTTP/1.1" 200 -
+2025-09-07 17:12:35,051 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:35] "GET /static_results/lane4.jpg?t=1757245354940 HTTP/1.1" 200 -
+2025-09-07 17:12:35,583 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:12:36,037 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:12:36,119 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:12:36,553 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:12:37,937 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:37] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:39,698 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:12:39,699 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:12:39,700 - __main__ - INFO - Iteration 9 completed in 4.67s. Total vehicles: 1
+2025-09-07 17:12:40,035 - __main__ - INFO - Starting analysis iteration 10/10
+2025-09-07 17:12:40,523 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 17:12:40,943 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:40] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:40,968 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 17:12:40,976 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:40] "GET /static_results/lane1_orig.jpg?t=1757245360952 HTTP/1.1" 200 -
+2025-09-07 17:12:40,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:40] "GET /static_results/lane1.jpg?t=1757245360952 HTTP/1.1" 200 -
+2025-09-07 17:12:40,992 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:40] "GET /static_results/lane2_orig.jpg?t=1757245360952 HTTP/1.1" 200 -
+2025-09-07 17:12:41,007 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:41] "GET /static_results/lane3_orig.jpg?t=1757245360952 HTTP/1.1" 200 -
+2025-09-07 17:12:41,007 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:41] "GET /static_results/lane2.jpg?t=1757245360952 HTTP/1.1" 200 -
+2025-09-07 17:12:41,022 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:41] "GET /static_results/lane3.jpg?t=1757245360952 HTTP/1.1" 200 -
+2025-09-07 17:12:41,067 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:41] "GET /static_results/lane4_orig.jpg?t=1757245360952 HTTP/1.1" 200 -
+2025-09-07 17:12:41,081 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:41] "GET /static_results/lane4.jpg?t=1757245360952 HTTP/1.1" 200 -
+2025-09-07 17:12:41,140 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 17:12:41,609 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 17:12:43,942 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:43] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:44,888 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 17:12:44,888 - __main__ - ERROR - Error saving frames: name 'self' is not defined
+2025-09-07 17:12:44,889 - __main__ - INFO - Iteration 10 completed in 4.85s. Total vehicles: 1
+2025-09-07 17:12:45,146 - __main__ - INFO - Video analysis completed
+2025-09-07 17:12:46,934 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:46] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:46,962 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:46] "GET /static_results/lane1_orig.jpg?t=1757245366940 HTTP/1.1" 200 -
+2025-09-07 17:12:46,966 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:46] "GET /static_results/lane1.jpg?t=1757245366940 HTTP/1.1" 200 -
+2025-09-07 17:12:46,969 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:46] "GET /static_results/lane2_orig.jpg?t=1757245366940 HTTP/1.1" 200 -
+2025-09-07 17:12:46,980 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:46] "GET /static_results/lane2.jpg?t=1757245366940 HTTP/1.1" 200 -
+2025-09-07 17:12:46,993 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:46] "GET /static_results/lane3_orig.jpg?t=1757245366940 HTTP/1.1" 200 -
+2025-09-07 17:12:47,011 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:47] "GET /static_results/lane3.jpg?t=1757245366940 HTTP/1.1" 200 -
+2025-09-07 17:12:47,031 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:47] "GET /static_results/lane4_orig.jpg?t=1757245366940 HTTP/1.1" 200 -
+2025-09-07 17:12:47,037 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:47] "GET /static_results/lane4.jpg?t=1757245366940 HTTP/1.1" 200 -
+2025-09-07 17:12:49,934 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:49] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 17:12:49,937 - __main__ - INFO - Analysis stopped by user request
+2025-09-07 17:12:49,940 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 17:12:49] "POST /stop_analysis HTTP/1.1" 200 -
+2025-09-07 17:19:18,318 - __main__ - INFO - Application shutdown complete
+2025-09-07 18:14:40,745 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 18:14:40,746 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 18:14:40,746 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 18:14:40,874 - __main__ - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 18:14:40,878 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 18:14:40,878 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 18:14:40,878 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 18:14:40,879 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 18:14:40,879 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 18:14:40,879 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 18:14:40,900 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 18:14:40,900 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 18:14:43,643 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:14:43] "GET / HTTP/1.1" 200 -
+2025-09-07 18:14:43,978 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:14:43] "GET /health HTTP/1.1" 200 -
+2025-09-07 18:14:44,032 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:14:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-07 18:15:12,433 - __main__ - INFO - Successfully uploaded: video-tl -> lane1.mp4
+2025-09-07 18:15:12,617 - __main__ - INFO - Successfully uploaded: video-tr -> lane2.mp4
+2025-09-07 18:15:12,725 - __main__ - INFO - Successfully uploaded: video-bl -> lane3.mp4
+2025-09-07 18:15:12,896 - __main__ - INFO - Successfully uploaded: video-br -> lane4.mp4
+2025-09-07 18:15:12,930 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:12] "POST /upload_videos HTTP/1.1" 200 -
+2025-09-07 18:15:12,949 - __main__ - INFO - Starting video analysis: 4 videos, 5s interval, 20 max iterations
+2025-09-07 18:15:12,953 - __main__ - INFO - Analysis started with 4 videos, 5s interval, 20 max iterations
+2025-09-07 18:15:12,966 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:12] "POST /start_analysis HTTP/1.1" 200 -
+2025-09-07 18:15:13,150 - __main__ - INFO - Starting analysis iteration 1/20
+2025-09-07 18:15:15,560 - __main__ - INFO - Signal plan computed: [29.7, 16.7, 5.0, 16.7]s green times
+2025-09-07 18:15:15,647 - __main__ - INFO - Iteration 1 completed in 2.5s. Total vehicles: 43
+2025-09-07 18:15:15,980 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:15] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:16,200 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:16] "GET /static_results/lane3.jpg?t=1757249116075 HTTP/1.1" 200 -
+2025-09-07 18:15:16,201 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:16] "GET /static_results/lane1_orig.jpg?t=1757249116072 HTTP/1.1" 200 -
+2025-09-07 18:15:16,201 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:16] "GET /static_results/lane1.jpg?t=1757249116074 HTTP/1.1" 200 -
+2025-09-07 18:15:16,201 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:16] "GET /static_results/lane2_orig.jpg?t=1757249116074 HTTP/1.1" 200 -
+2025-09-07 18:15:16,203 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:16] "GET /static_results/lane3_orig.jpg?t=1757249116075 HTTP/1.1" 200 -
+2025-09-07 18:15:16,205 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:16] "GET /static_results/lane2.jpg?t=1757249116075 HTTP/1.1" 200 -
+2025-09-07 18:15:16,249 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:16] "GET /static_results/lane4_orig.jpg?t=1757249116075 HTTP/1.1" 200 -
+2025-09-07 18:15:16,264 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:16] "GET /static_results/lane4.jpg?t=1757249116075 HTTP/1.1" 200 -
+2025-09-07 18:15:18,151 - __main__ - INFO - Starting analysis iteration 2/20
+2025-09-07 18:15:19,014 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:19] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:21,230 - __main__ - INFO - Signal plan computed: [12.7, 23.6, 32.7, 10.9]s green times
+2025-09-07 18:15:21,287 - __main__ - INFO - Iteration 2 completed in 3.14s. Total vehicles: 33
+2025-09-07 18:15:22,028 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:22] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:22,072 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:22] "GET /static_results/lane2_orig.jpg?t=1757249122037 HTTP/1.1" 200 -
+2025-09-07 18:15:22,084 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:22] "GET /static_results/lane1_orig.jpg?t=1757249122034 HTTP/1.1" 200 -
+2025-09-07 18:15:22,085 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:22] "GET /static_results/lane1.jpg?t=1757249122034 HTTP/1.1" 200 -
+2025-09-07 18:15:22,086 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:22] "GET /static_results/lane2.jpg?t=1757249122037 HTTP/1.1" 200 -
+2025-09-07 18:15:22,087 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:22] "GET /static_results/lane3_orig.jpg?t=1757249122037 HTTP/1.1" 200 -
+2025-09-07 18:15:22,113 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:22] "GET /static_results/lane3.jpg?t=1757249122037 HTTP/1.1" 200 -
+2025-09-07 18:15:22,123 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:22] "GET /static_results/lane4_orig.jpg?t=1757249122037 HTTP/1.1" 200 -
+2025-09-07 18:15:22,153 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:22] "GET /static_results/lane4.jpg?t=1757249122037 HTTP/1.1" 200 -
+2025-09-07 18:15:23,151 - __main__ - INFO - Starting analysis iteration 3/20
+2025-09-07 18:15:24,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:24] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:26,225 - __main__ - INFO - Signal plan computed: [15.0, 25.5, 9.0, 15.0]s green times
+2025-09-07 18:15:26,286 - __main__ - INFO - Iteration 3 completed in 3.13s. Total vehicles: 40
+2025-09-07 18:15:27,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:27] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:28,044 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:28] "GET /static_results/lane1_orig.jpg?t=1757249127983 HTTP/1.1" 200 -
+2025-09-07 18:15:28,050 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:28] "GET /static_results/lane1.jpg?t=1757249127983 HTTP/1.1" 200 -
+2025-09-07 18:15:28,060 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:28] "GET /static_results/lane2_orig.jpg?t=1757249127983 HTTP/1.1" 200 -
+2025-09-07 18:15:28,074 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:28] "GET /static_results/lane2.jpg?t=1757249127983 HTTP/1.1" 200 -
+2025-09-07 18:15:28,076 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:28] "GET /static_results/lane3_orig.jpg?t=1757249127983 HTTP/1.1" 200 -
+2025-09-07 18:15:28,110 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:28] "GET /static_results/lane3.jpg?t=1757249127983 HTTP/1.1" 200 -
+2025-09-07 18:15:28,144 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:28] "GET /static_results/lane4.jpg?t=1757249127983 HTTP/1.1" 200 -
+2025-09-07 18:15:28,151 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:28] "GET /static_results/lane4_orig.jpg?t=1757249127983 HTTP/1.1" 200 -
+2025-09-07 18:15:28,153 - __main__ - INFO - Starting analysis iteration 4/20
+2025-09-07 18:15:30,982 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:30] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:31,348 - __main__ - INFO - Signal plan computed: [26.8, 12.9, 10.7, 20.9]s green times
+2025-09-07 18:15:31,399 - __main__ - INFO - Iteration 4 completed in 3.25s. Total vehicles: 56
+2025-09-07 18:15:33,154 - __main__ - INFO - Starting analysis iteration 5/20
+2025-09-07 18:15:33,985 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:33] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:34,034 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:34] "GET /static_results/lane1_orig.jpg?t=1757249134006 HTTP/1.1" 200 -
+2025-09-07 18:15:34,056 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:34] "GET /static_results/lane1.jpg?t=1757249134006 HTTP/1.1" 200 -
+2025-09-07 18:15:34,093 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:34] "GET /static_results/lane2_orig.jpg?t=1757249134006 HTTP/1.1" 200 -
+2025-09-07 18:15:34,094 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:34] "GET /static_results/lane2.jpg?t=1757249134006 HTTP/1.1" 200 -
+2025-09-07 18:15:34,118 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:34] "GET /static_results/lane3_orig.jpg?t=1757249134007 HTTP/1.1" 200 -
+2025-09-07 18:15:34,150 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:34] "GET /static_results/lane3.jpg?t=1757249134007 HTTP/1.1" 200 -
+2025-09-07 18:15:34,301 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:34] "GET /static_results/lane4_orig.jpg?t=1757249134007 HTTP/1.1" 200 -
+2025-09-07 18:15:34,317 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:34] "GET /static_results/lane4.jpg?t=1757249134007 HTTP/1.1" 200 -
+2025-09-07 18:15:35,944 - __main__ - INFO - Signal plan computed: [27.4, 12.6, 10.5, 20.5]s green times
+2025-09-07 18:15:36,003 - __main__ - INFO - Iteration 5 completed in 2.85s. Total vehicles: 57
+2025-09-07 18:15:36,984 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:36] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:37,070 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:37] "GET /static_results/lane1_orig.jpg?t=1757249136992 HTTP/1.1" 200 -
+2025-09-07 18:15:37,076 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:37] "GET /static_results/lane1.jpg?t=1757249136993 HTTP/1.1" 200 -
+2025-09-07 18:15:37,100 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:37] "GET /static_results/lane2_orig.jpg?t=1757249136993 HTTP/1.1" 200 -
+2025-09-07 18:15:37,109 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:37] "GET /static_results/lane2.jpg?t=1757249136993 HTTP/1.1" 200 -
+2025-09-07 18:15:37,130 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:37] "GET /static_results/lane3_orig.jpg?t=1757249136993 HTTP/1.1" 200 -
+2025-09-07 18:15:37,132 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:37] "GET /static_results/lane3.jpg?t=1757249136993 HTTP/1.1" 200 -
+2025-09-07 18:15:37,174 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:37] "GET /static_results/lane4_orig.jpg?t=1757249136993 HTTP/1.1" 200 -
+2025-09-07 18:15:37,184 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:37] "GET /static_results/lane4.jpg?t=1757249136993 HTTP/1.1" 200 -
+2025-09-07 18:15:38,155 - __main__ - INFO - Starting analysis iteration 6/20
+2025-09-07 18:15:38,456 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:15:38,658 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:15:38,697 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:15:38,906 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:15:39,980 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:39] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:40,212 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:15:40,247 - __main__ - INFO - Iteration 6 completed in 2.09s. Total vehicles: 1
+2025-09-07 18:15:42,977 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:42] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:42,995 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:42] "GET /static_results/lane1.jpg?t=1757249142984 HTTP/1.1" 200 -
+2025-09-07 18:15:42,996 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:42] "GET /static_results/lane2_orig.jpg?t=1757249142984 HTTP/1.1" 200 -
+2025-09-07 18:15:42,998 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:42] "GET /static_results/lane1_orig.jpg?t=1757249142984 HTTP/1.1" 200 -
+2025-09-07 18:15:42,999 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:42] "GET /static_results/lane2.jpg?t=1757249142984 HTTP/1.1" 200 -
+2025-09-07 18:15:43,045 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:43] "GET /static_results/lane3_orig.jpg?t=1757249142984 HTTP/1.1" 200 -
+2025-09-07 18:15:43,076 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:43] "GET /static_results/lane3.jpg?t=1757249142984 HTTP/1.1" 200 -
+2025-09-07 18:15:43,108 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:43] "GET /static_results/lane4_orig.jpg?t=1757249142984 HTTP/1.1" 200 -
+2025-09-07 18:15:43,115 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:43] "GET /static_results/lane4.jpg?t=1757249142984 HTTP/1.1" 200 -
+2025-09-07 18:15:43,156 - __main__ - INFO - Starting analysis iteration 7/20
+2025-09-07 18:15:43,621 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:15:43,818 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:15:43,861 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:15:44,075 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:15:45,338 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:15:45,389 - __main__ - INFO - Iteration 7 completed in 2.23s. Total vehicles: 1
+2025-09-07 18:15:45,981 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:45] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:46,015 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:46] "GET /static_results/lane1.jpg?t=1757249145985 HTTP/1.1" 200 -
+2025-09-07 18:15:46,054 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:46] "GET /static_results/lane2_orig.jpg?t=1757249145985 HTTP/1.1" 200 -
+2025-09-07 18:15:46,060 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:46] "GET /static_results/lane1_orig.jpg?t=1757249145985 HTTP/1.1" 200 -
+2025-09-07 18:15:46,073 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:46] "GET /static_results/lane2.jpg?t=1757249145986 HTTP/1.1" 200 -
+2025-09-07 18:15:46,079 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:46] "GET /static_results/lane3.jpg?t=1757249145986 HTTP/1.1" 200 -
+2025-09-07 18:15:46,082 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:46] "GET /static_results/lane3_orig.jpg?t=1757249145986 HTTP/1.1" 200 -
+2025-09-07 18:15:46,156 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:46] "GET /static_results/lane4_orig.jpg?t=1757249145986 HTTP/1.1" 200 -
+2025-09-07 18:15:46,171 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:46] "GET /static_results/lane4.jpg?t=1757249145986 HTTP/1.1" 200 -
+2025-09-07 18:15:48,157 - __main__ - INFO - Starting analysis iteration 8/20
+2025-09-07 18:15:48,632 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:15:48,943 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:15:48,983 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:48] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:48,986 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:15:49,261 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:15:50,994 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:15:51,044 - __main__ - INFO - Iteration 8 completed in 2.89s. Total vehicles: 1
+2025-09-07 18:15:51,980 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:51] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:52,021 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:52] "GET /static_results/lane2_orig.jpg?t=1757249151985 HTTP/1.1" 200 -
+2025-09-07 18:15:52,036 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:52] "GET /static_results/lane1_orig.jpg?t=1757249151985 HTTP/1.1" 200 -
+2025-09-07 18:15:52,038 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:52] "GET /static_results/lane1.jpg?t=1757249151985 HTTP/1.1" 200 -
+2025-09-07 18:15:52,038 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:52] "GET /static_results/lane2.jpg?t=1757249151985 HTTP/1.1" 200 -
+2025-09-07 18:15:52,063 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:52] "GET /static_results/lane3_orig.jpg?t=1757249151985 HTTP/1.1" 200 -
+2025-09-07 18:15:52,137 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:52] "GET /static_results/lane4_orig.jpg?t=1757249151985 HTTP/1.1" 200 -
+2025-09-07 18:15:52,138 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:52] "GET /static_results/lane3.jpg?t=1757249151985 HTTP/1.1" 200 -
+2025-09-07 18:15:52,138 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:52] "GET /static_results/lane4.jpg?t=1757249151985 HTTP/1.1" 200 -
+2025-09-07 18:15:53,160 - __main__ - INFO - Starting analysis iteration 9/20
+2025-09-07 18:15:53,507 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:15:53,859 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:15:53,911 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:15:54,207 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:15:54,982 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:54] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:55,616 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:15:55,664 - __main__ - INFO - Iteration 9 completed in 2.5s. Total vehicles: 1
+2025-09-07 18:15:57,978 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:57] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:15:58,023 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:58] "GET /static_results/lane1_orig.jpg?t=1757249157982 HTTP/1.1" 200 -
+2025-09-07 18:15:58,023 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:58] "GET /static_results/lane1.jpg?t=1757249157982 HTTP/1.1" 200 -
+2025-09-07 18:15:58,037 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:58] "GET /static_results/lane2_orig.jpg?t=1757249157982 HTTP/1.1" 200 -
+2025-09-07 18:15:58,099 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:58] "GET /static_results/lane2.jpg?t=1757249157982 HTTP/1.1" 200 -
+2025-09-07 18:15:58,136 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:58] "GET /static_results/lane3_orig.jpg?t=1757249157982 HTTP/1.1" 200 -
+2025-09-07 18:15:58,168 - __main__ - INFO - Starting analysis iteration 10/20
+2025-09-07 18:15:58,168 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:58] "GET /static_results/lane3.jpg?t=1757249157982 HTTP/1.1" 200 -
+2025-09-07 18:15:58,177 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:58] "GET /static_results/lane4_orig.jpg?t=1757249157982 HTTP/1.1" 200 -
+2025-09-07 18:15:58,183 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:15:58] "GET /static_results/lane4.jpg?t=1757249157982 HTTP/1.1" 200 -
+2025-09-07 18:15:58,640 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:15:58,849 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:15:58,891 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:15:59,111 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:00,382 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:00,433 - __main__ - INFO - Iteration 10 completed in 2.27s. Total vehicles: 1
+2025-09-07 18:16:00,978 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:00] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:01,021 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:01] "GET /static_results/lane1_orig.jpg?t=1757249160991 HTTP/1.1" 200 -
+2025-09-07 18:16:01,117 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:01] "GET /static_results/lane1.jpg?t=1757249160991 HTTP/1.1" 200 -
+2025-09-07 18:16:01,126 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:01] "GET /static_results/lane2_orig.jpg?t=1757249160991 HTTP/1.1" 200 -
+2025-09-07 18:16:01,151 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:01] "GET /static_results/lane2.jpg?t=1757249160991 HTTP/1.1" 200 -
+2025-09-07 18:16:01,154 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:01] "GET /static_results/lane3.jpg?t=1757249160991 HTTP/1.1" 200 -
+2025-09-07 18:16:01,171 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:01] "GET /static_results/lane3_orig.jpg?t=1757249160991 HTTP/1.1" 200 -
+2025-09-07 18:16:01,191 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:01] "GET /static_results/lane4_orig.jpg?t=1757249160991 HTTP/1.1" 200 -
+2025-09-07 18:16:01,248 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:01] "GET /static_results/lane4.jpg?t=1757249160991 HTTP/1.1" 200 -
+2025-09-07 18:16:03,168 - __main__ - INFO - Starting analysis iteration 11/20
+2025-09-07 18:16:03,462 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:03,667 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:03,707 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:03,923 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:03,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:03] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:05,215 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:05,258 - __main__ - INFO - Iteration 11 completed in 2.09s. Total vehicles: 1
+2025-09-07 18:16:06,978 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:06] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:07,007 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:07] "GET /static_results/lane2.jpg?t=1757249166982 HTTP/1.1" 200 -
+2025-09-07 18:16:07,020 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:07] "GET /static_results/lane2_orig.jpg?t=1757249166982 HTTP/1.1" 200 -
+2025-09-07 18:16:07,022 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:07] "GET /static_results/lane1_orig.jpg?t=1757249166982 HTTP/1.1" 200 -
+2025-09-07 18:16:07,023 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:07] "GET /static_results/lane1.jpg?t=1757249166982 HTTP/1.1" 200 -
+2025-09-07 18:16:07,032 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:07] "GET /static_results/lane3_orig.jpg?t=1757249166982 HTTP/1.1" 200 -
+2025-09-07 18:16:07,080 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:07] "GET /static_results/lane3.jpg?t=1757249166982 HTTP/1.1" 200 -
+2025-09-07 18:16:07,158 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:07] "GET /static_results/lane4_orig.jpg?t=1757249166982 HTTP/1.1" 200 -
+2025-09-07 18:16:07,164 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:07] "GET /static_results/lane4.jpg?t=1757249166982 HTTP/1.1" 200 -
+2025-09-07 18:16:08,169 - __main__ - INFO - Starting analysis iteration 12/20
+2025-09-07 18:16:08,471 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:08,674 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:08,714 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:08,926 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:09,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:09] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:10,174 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:10,211 - __main__ - INFO - Iteration 12 completed in 2.04s. Total vehicles: 1
+2025-09-07 18:16:12,980 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:12] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:13,024 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:13] "GET /static_results/lane2_orig.jpg?t=1757249172985 HTTP/1.1" 200 -
+2025-09-07 18:16:13,070 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:13] "GET /static_results/lane1_orig.jpg?t=1757249172985 HTTP/1.1" 200 -
+2025-09-07 18:16:13,072 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:13] "GET /static_results/lane1.jpg?t=1757249172985 HTTP/1.1" 200 -
+2025-09-07 18:16:13,079 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:13] "GET /static_results/lane2.jpg?t=1757249172985 HTTP/1.1" 200 -
+2025-09-07 18:16:13,119 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:13] "GET /static_results/lane3_orig.jpg?t=1757249172985 HTTP/1.1" 200 -
+2025-09-07 18:16:13,131 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:13] "GET /static_results/lane4_orig.jpg?t=1757249172985 HTTP/1.1" 200 -
+2025-09-07 18:16:13,132 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:13] "GET /static_results/lane3.jpg?t=1757249172985 HTTP/1.1" 200 -
+2025-09-07 18:16:13,172 - __main__ - INFO - Starting analysis iteration 13/20
+2025-09-07 18:16:13,191 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:13] "GET /static_results/lane4.jpg?t=1757249172985 HTTP/1.1" 200 -
+2025-09-07 18:16:13,689 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:13,914 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:13,954 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:14,182 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:15,569 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:15,625 - __main__ - INFO - Iteration 13 completed in 2.45s. Total vehicles: 1
+2025-09-07 18:16:15,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:15] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:16,002 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:16] "GET /static_results/lane1.jpg?t=1757249175982 HTTP/1.1" 200 -
+2025-09-07 18:16:16,008 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:16] "GET /static_results/lane3_orig.jpg?t=1757249175982 HTTP/1.1" 200 -
+2025-09-07 18:16:16,007 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:16] "GET /static_results/lane2_orig.jpg?t=1757249175982 HTTP/1.1" 200 -
+2025-09-07 18:16:16,007 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:16] "GET /static_results/lane2.jpg?t=1757249175982 HTTP/1.1" 200 -
+2025-09-07 18:16:16,005 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:16] "GET /static_results/lane3.jpg?t=1757249175982 HTTP/1.1" 200 -
+2025-09-07 18:16:16,022 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:16] "GET /static_results/lane1_orig.jpg?t=1757249175982 HTTP/1.1" 200 -
+2025-09-07 18:16:16,127 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:16] "GET /static_results/lane4_orig.jpg?t=1757249175982 HTTP/1.1" 200 -
+2025-09-07 18:16:16,129 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:16] "GET /static_results/lane4.jpg?t=1757249175983 HTTP/1.1" 200 -
+2025-09-07 18:16:18,173 - __main__ - INFO - Starting analysis iteration 14/20
+2025-09-07 18:16:18,464 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:18,666 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:18,709 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:18,937 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:18,983 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:18] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:20,452 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:20,515 - __main__ - INFO - Iteration 14 completed in 2.34s. Total vehicles: 1
+2025-09-07 18:16:21,978 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:21] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:22,049 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:22] "GET /static_results/lane1_orig.jpg?t=1757249181983 HTTP/1.1" 200 -
+2025-09-07 18:16:22,050 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:22] "GET /static_results/lane1.jpg?t=1757249181983 HTTP/1.1" 200 -
+2025-09-07 18:16:22,071 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:22] "GET /static_results/lane2_orig.jpg?t=1757249181983 HTTP/1.1" 200 -
+2025-09-07 18:16:22,154 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:22] "GET /static_results/lane2.jpg?t=1757249181983 HTTP/1.1" 200 -
+2025-09-07 18:16:22,170 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:22] "GET /static_results/lane3_orig.jpg?t=1757249181983 HTTP/1.1" 200 -
+2025-09-07 18:16:22,179 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:22] "GET /static_results/lane3.jpg?t=1757249181983 HTTP/1.1" 200 -
+2025-09-07 18:16:22,196 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:22] "GET /static_results/lane4_orig.jpg?t=1757249181983 HTTP/1.1" 200 -
+2025-09-07 18:16:22,221 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:22] "GET /static_results/lane4.jpg?t=1757249181983 HTTP/1.1" 200 -
+2025-09-07 18:16:23,173 - __main__ - INFO - Starting analysis iteration 15/20
+2025-09-07 18:16:23,511 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:23,746 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:23,797 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:24,040 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:24,978 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:24] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:25,505 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:25,554 - __main__ - INFO - Iteration 15 completed in 2.38s. Total vehicles: 1
+2025-09-07 18:16:27,977 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:27] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:28,052 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:28] "GET /static_results/lane1.jpg?t=1757249187981 HTTP/1.1" 200 -
+2025-09-07 18:16:28,060 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:28] "GET /static_results/lane3_orig.jpg?t=1757249187981 HTTP/1.1" 200 -
+2025-09-07 18:16:28,066 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:28] "GET /static_results/lane2_orig.jpg?t=1757249187981 HTTP/1.1" 200 -
+2025-09-07 18:16:28,068 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:28] "GET /static_results/lane1_orig.jpg?t=1757249187981 HTTP/1.1" 200 -
+2025-09-07 18:16:28,068 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:28] "GET /static_results/lane2.jpg?t=1757249187981 HTTP/1.1" 200 -
+2025-09-07 18:16:28,070 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:28] "GET /static_results/lane3.jpg?t=1757249187981 HTTP/1.1" 200 -
+2025-09-07 18:16:28,175 - __main__ - INFO - Starting analysis iteration 16/20
+2025-09-07 18:16:28,175 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:28] "GET /static_results/lane4_orig.jpg?t=1757249187981 HTTP/1.1" 200 -
+2025-09-07 18:16:28,176 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:28] "GET /static_results/lane4.jpg?t=1757249187981 HTTP/1.1" 200 -
+2025-09-07 18:16:28,642 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:28,861 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:28,901 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:29,161 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:30,652 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:30,696 - __main__ - INFO - Iteration 16 completed in 2.52s. Total vehicles: 1
+2025-09-07 18:16:30,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:30] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:31,011 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:31] "GET /static_results/lane1_orig.jpg?t=1757249190984 HTTP/1.1" 200 -
+2025-09-07 18:16:31,011 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:31] "GET /static_results/lane1.jpg?t=1757249190984 HTTP/1.1" 200 -
+2025-09-07 18:16:31,012 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:31] "GET /static_results/lane2_orig.jpg?t=1757249190984 HTTP/1.1" 200 -
+2025-09-07 18:16:31,046 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:31] "GET /static_results/lane2.jpg?t=1757249190984 HTTP/1.1" 200 -
+2025-09-07 18:16:31,051 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:31] "GET /static_results/lane3_orig.jpg?t=1757249190985 HTTP/1.1" 200 -
+2025-09-07 18:16:31,084 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:31] "GET /static_results/lane3.jpg?t=1757249190985 HTTP/1.1" 200 -
+2025-09-07 18:16:31,126 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:31] "GET /static_results/lane4_orig.jpg?t=1757249190985 HTTP/1.1" 200 -
+2025-09-07 18:16:31,132 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:31] "GET /static_results/lane4.jpg?t=1757249190985 HTTP/1.1" 200 -
+2025-09-07 18:16:33,176 - __main__ - INFO - Starting analysis iteration 17/20
+2025-09-07 18:16:33,612 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:33,831 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:33,876 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:33,989 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:33] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:34,122 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:35,420 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:35,467 - __main__ - INFO - Iteration 17 completed in 2.29s. Total vehicles: 1
+2025-09-07 18:16:36,980 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:36] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:37,024 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:37] "GET /static_results/lane1_orig.jpg?t=1757249196984 HTTP/1.1" 200 -
+2025-09-07 18:16:37,067 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:37] "GET /static_results/lane1.jpg?t=1757249196985 HTTP/1.1" 200 -
+2025-09-07 18:16:37,105 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:37] "GET /static_results/lane2_orig.jpg?t=1757249196985 HTTP/1.1" 200 -
+2025-09-07 18:16:37,116 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:37] "GET /static_results/lane2.jpg?t=1757249196985 HTTP/1.1" 200 -
+2025-09-07 18:16:37,149 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:37] "GET /static_results/lane3_orig.jpg?t=1757249196985 HTTP/1.1" 200 -
+2025-09-07 18:16:37,186 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:37] "GET /static_results/lane3.jpg?t=1757249196985 HTTP/1.1" 200 -
+2025-09-07 18:16:37,219 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:37] "GET /static_results/lane4_orig.jpg?t=1757249196985 HTTP/1.1" 200 -
+2025-09-07 18:16:37,221 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:37] "GET /static_results/lane4.jpg?t=1757249196985 HTTP/1.1" 200 -
+2025-09-07 18:16:38,177 - __main__ - INFO - Starting analysis iteration 18/20
+2025-09-07 18:16:38,447 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:38,793 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:38,841 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:39,083 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:39,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:39] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:40,523 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:40,578 - __main__ - INFO - Iteration 18 completed in 2.4s. Total vehicles: 1
+2025-09-07 18:16:42,980 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:42] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:43,022 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:43] "GET /static_results/lane1.jpg?t=1757249202986 HTTP/1.1" 200 -
+2025-09-07 18:16:43,030 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:43] "GET /static_results/lane2.jpg?t=1757249202986 HTTP/1.1" 200 -
+2025-09-07 18:16:43,034 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:43] "GET /static_results/lane2_orig.jpg?t=1757249202986 HTTP/1.1" 200 -
+2025-09-07 18:16:43,047 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:43] "GET /static_results/lane1_orig.jpg?t=1757249202986 HTTP/1.1" 200 -
+2025-09-07 18:16:43,054 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:43] "GET /static_results/lane3_orig.jpg?t=1757249202986 HTTP/1.1" 200 -
+2025-09-07 18:16:43,100 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:43] "GET /static_results/lane3.jpg?t=1757249202986 HTTP/1.1" 200 -
+2025-09-07 18:16:43,121 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:43] "GET /static_results/lane4_orig.jpg?t=1757249202986 HTTP/1.1" 200 -
+2025-09-07 18:16:43,157 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:43] "GET /static_results/lane4.jpg?t=1757249202986 HTTP/1.1" 200 -
+2025-09-07 18:16:43,187 - __main__ - INFO - Starting analysis iteration 19/20
+2025-09-07 18:16:43,909 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:44,293 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:44,365 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:44,747 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:45,978 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:45] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:46,464 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:46,515 - __main__ - INFO - Iteration 19 completed in 3.33s. Total vehicles: 1
+2025-09-07 18:16:48,188 - __main__ - INFO - Starting analysis iteration 20/20
+2025-09-07 18:16:48,459 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:16:48,659 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:16:48,700 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:16:48,908 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:16:48,977 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:48] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:49,001 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:49] "GET /static_results/lane2.jpg?t=1757249208980 HTTP/1.1" 200 -
+2025-09-07 18:16:49,001 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:49] "GET /static_results/lane2_orig.jpg?t=1757249208980 HTTP/1.1" 200 -
+2025-09-07 18:16:49,003 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:49] "GET /static_results/lane1.jpg?t=1757249208980 HTTP/1.1" 200 -
+2025-09-07 18:16:49,004 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:49] "GET /static_results/lane1_orig.jpg?t=1757249208980 HTTP/1.1" 200 -
+2025-09-07 18:16:49,019 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:49] "GET /static_results/lane3_orig.jpg?t=1757249208980 HTTP/1.1" 200 -
+2025-09-07 18:16:49,060 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:49] "GET /static_results/lane3.jpg?t=1757249208980 HTTP/1.1" 200 -
+2025-09-07 18:16:49,083 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:49] "GET /static_results/lane4_orig.jpg?t=1757249208981 HTTP/1.1" 200 -
+2025-09-07 18:16:49,086 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:49] "GET /static_results/lane4.jpg?t=1757249208981 HTTP/1.1" 200 -
+2025-09-07 18:16:50,870 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:16:50,917 - __main__ - INFO - Iteration 20 completed in 2.73s. Total vehicles: 1
+2025-09-07 18:16:51,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:51] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:52,061 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:52] "GET /static_results/lane2_orig.jpg?t=1757249211987 HTTP/1.1" 200 -
+2025-09-07 18:16:52,077 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:52] "GET /static_results/lane2.jpg?t=1757249211987 HTTP/1.1" 200 -
+2025-09-07 18:16:52,078 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:52] "GET /static_results/lane1_orig.jpg?t=1757249211986 HTTP/1.1" 200 -
+2025-09-07 18:16:52,108 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:52] "GET /static_results/lane1.jpg?t=1757249211987 HTTP/1.1" 200 -
+2025-09-07 18:16:52,111 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:52] "GET /static_results/lane3_orig.jpg?t=1757249211987 HTTP/1.1" 200 -
+2025-09-07 18:16:52,138 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:52] "GET /static_results/lane3.jpg?t=1757249211987 HTTP/1.1" 200 -
+2025-09-07 18:16:52,154 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:52] "GET /static_results/lane4_orig.jpg?t=1757249211987 HTTP/1.1" 200 -
+2025-09-07 18:16:52,195 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:52] "GET /static_results/lane4.jpg?t=1757249211987 HTTP/1.1" 200 -
+2025-09-07 18:16:53,277 - __main__ - INFO - Video analysis completed
+2025-09-07 18:16:54,976 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:54] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:16:57,977 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:16:57] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:17:00,977 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:17:00] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:17:02,985 - __main__ - INFO - Analysis stopped by user request
+2025-09-07 18:17:02,987 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:17:02] "POST /stop_analysis HTTP/1.1" 200 -
+2025-09-07 18:26:29,719 - __main__ - INFO - Application shutdown complete
+2025-09-07 18:26:40,565 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 18:26:40,566 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 18:26:40,566 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 18:26:40,886 - __main__ - INFO - Successfully loaded YOLO model: yolov8x.pt
+2025-09-07 18:26:40,889 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 18:26:40,890 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 18:26:40,890 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 18:26:40,890 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 18:26:40,891 - __main__ - INFO - YOLO model: yolov8x.pt
+2025-09-07 18:26:40,891 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 18:26:40,906 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 18:26:40,906 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 18:26:49,808 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:26:49] "GET / HTTP/1.1" 200 -
+2025-09-07 18:26:50,060 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:26:50] "GET /health HTTP/1.1" 200 -
+2025-09-07 18:27:16,278 - __main__ - INFO - Successfully uploaded: video-tl -> lane1.mp4
+2025-09-07 18:27:16,352 - __main__ - INFO - Successfully uploaded: video-tr -> lane2.mp4
+2025-09-07 18:27:16,390 - __main__ - INFO - Successfully uploaded: video-bl -> lane3.mp4
+2025-09-07 18:27:16,438 - __main__ - INFO - Successfully uploaded: video-br -> lane4.mp4
+2025-09-07 18:27:16,445 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:16] "POST /upload_videos HTTP/1.1" 200 -
+2025-09-07 18:27:16,459 - __main__ - INFO - Starting video analysis: 4 videos, 5s interval, 8 max iterations
+2025-09-07 18:27:16,459 - __main__ - INFO - Analysis started with 4 videos, 5s interval, 8 max iterations
+2025-09-07 18:27:16,460 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:16] "POST /start_analysis HTTP/1.1" 200 -
+2025-09-07 18:27:16,590 - __main__ - INFO - Starting analysis iteration 1/8
+2025-09-07 18:27:19,480 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:19] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:22,476 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:22] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:23,937 - __main__ - INFO - Signal plan computed: [33.5, 9.4, 5.0, 10.6]s green times
+2025-09-07 18:27:24,001 - __main__ - INFO - Iteration 1 completed in 7.41s. Total vehicles: 51
+2025-09-07 18:27:24,001 - __main__ - INFO - Starting analysis iteration 2/8
+2025-09-07 18:27:25,478 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:25] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:25,671 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:25] "GET /static_results/lane1.jpg?t=1757249845549 HTTP/1.1" 200 -
+2025-09-07 18:27:25,672 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:25] "GET /static_results/lane1_orig.jpg?t=1757249845548 HTTP/1.1" 200 -
+2025-09-07 18:27:25,687 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:25] "GET /static_results/lane2_orig.jpg?t=1757249845550 HTTP/1.1" 200 -
+2025-09-07 18:27:25,693 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:25] "GET /static_results/lane2.jpg?t=1757249845550 HTTP/1.1" 200 -
+2025-09-07 18:27:25,708 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:25] "GET /static_results/lane3_orig.jpg?t=1757249845550 HTTP/1.1" 200 -
+2025-09-07 18:27:25,722 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:25] "GET /static_results/lane3.jpg?t=1757249845550 HTTP/1.1" 200 -
+2025-09-07 18:27:25,770 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:25] "GET /static_results/lane4_orig.jpg?t=1757249845550 HTTP/1.1" 200 -
+2025-09-07 18:27:25,775 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:25] "GET /static_results/lane4.jpg?t=1757249845550 HTTP/1.1" 200 -
+2025-09-07 18:27:28,483 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:28] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:31,028 - __main__ - INFO - Signal plan computed: [12.6, 34.7, 9.5, 15.8]s green times
+2025-09-07 18:27:31,071 - __main__ - INFO - Iteration 2 completed in 7.07s. Total vehicles: 19
+2025-09-07 18:27:31,072 - __main__ - INFO - Starting analysis iteration 3/8
+2025-09-07 18:27:31,500 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:31] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:31,570 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:31] "GET /static_results/lane1_orig.jpg?t=1757249851521 HTTP/1.1" 200 -
+2025-09-07 18:27:31,572 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:31] "GET /static_results/lane1.jpg?t=1757249851522 HTTP/1.1" 200 -
+2025-09-07 18:27:31,607 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:31] "GET /static_results/lane2_orig.jpg?t=1757249851528 HTTP/1.1" 200 -
+2025-09-07 18:27:31,621 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:31] "GET /static_results/lane2.jpg?t=1757249851529 HTTP/1.1" 200 -
+2025-09-07 18:27:31,680 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:31] "GET /static_results/lane3.jpg?t=1757249851529 HTTP/1.1" 200 -
+2025-09-07 18:27:31,680 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:31] "GET /static_results/lane3_orig.jpg?t=1757249851529 HTTP/1.1" 200 -
+2025-09-07 18:27:31,731 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:31] "GET /static_results/lane4_orig.jpg?t=1757249851529 HTTP/1.1" 200 -
+2025-09-07 18:27:31,756 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:31] "GET /static_results/lane4.jpg?t=1757249851529 HTTP/1.1" 200 -
+2025-09-07 18:27:34,473 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:34] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:37,475 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:37] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:38,097 - __main__ - INFO - Signal plan computed: [5.6, 32.7, 8.4, 12.6]s green times
+2025-09-07 18:27:38,144 - __main__ - INFO - Iteration 3 completed in 7.07s. Total vehicles: 43
+2025-09-07 18:27:38,145 - __main__ - INFO - Starting analysis iteration 4/8
+2025-09-07 18:27:40,477 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:40] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:40,546 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:40] "GET /static_results/lane1_orig.jpg?t=1757249860480 HTTP/1.1" 200 -
+2025-09-07 18:27:40,554 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:40] "GET /static_results/lane1.jpg?t=1757249860481 HTTP/1.1" 200 -
+2025-09-07 18:27:40,562 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:40] "GET /static_results/lane2_orig.jpg?t=1757249860481 HTTP/1.1" 200 -
+2025-09-07 18:27:40,609 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:40] "GET /static_results/lane2.jpg?t=1757249860481 HTTP/1.1" 200 -
+2025-09-07 18:27:40,617 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:40] "GET /static_results/lane3_orig.jpg?t=1757249860481 HTTP/1.1" 200 -
+2025-09-07 18:27:40,629 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:40] "GET /static_results/lane3.jpg?t=1757249860481 HTTP/1.1" 200 -
+2025-09-07 18:27:40,679 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:40] "GET /static_results/lane4_orig.jpg?t=1757249860481 HTTP/1.1" 200 -
+2025-09-07 18:27:40,694 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:40] "GET /static_results/lane4.jpg?t=1757249860481 HTTP/1.1" 200 -
+2025-09-07 18:27:43,482 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:43] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:45,115 - __main__ - INFO - Signal plan computed: [12.9, 12.9, 12.9, 27.9]s green times
+2025-09-07 18:27:45,148 - __main__ - INFO - Iteration 4 completed in 7.0s. Total vehicles: 42
+2025-09-07 18:27:45,149 - __main__ - INFO - Starting analysis iteration 5/8
+2025-09-07 18:27:46,476 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:46] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:46,496 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:46] "GET /static_results/lane1_orig.jpg?t=1757249866481 HTTP/1.1" 200 -
+2025-09-07 18:27:46,509 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:46] "GET /static_results/lane1.jpg?t=1757249866481 HTTP/1.1" 200 -
+2025-09-07 18:27:46,514 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:46] "GET /static_results/lane2_orig.jpg?t=1757249866481 HTTP/1.1" 200 -
+2025-09-07 18:27:46,520 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:46] "GET /static_results/lane2.jpg?t=1757249866481 HTTP/1.1" 200 -
+2025-09-07 18:27:46,563 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:46] "GET /static_results/lane3_orig.jpg?t=1757249866481 HTTP/1.1" 200 -
+2025-09-07 18:27:46,572 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:46] "GET /static_results/lane3.jpg?t=1757249866481 HTTP/1.1" 200 -
+2025-09-07 18:27:46,575 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:46] "GET /static_results/lane4_orig.jpg?t=1757249866481 HTTP/1.1" 200 -
+2025-09-07 18:27:46,637 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:46] "GET /static_results/lane4.jpg?t=1757249866481 HTTP/1.1" 200 -
+2025-09-07 18:27:49,474 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:49] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:52,076 - __main__ - INFO - Signal plan computed: [12.3, 12.3, 12.3, 29.3]s green times
+2025-09-07 18:27:52,113 - __main__ - INFO - Iteration 5 completed in 6.96s. Total vehicles: 44
+2025-09-07 18:27:52,113 - __main__ - INFO - Starting analysis iteration 6/8
+2025-09-07 18:27:52,353 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:27:52,508 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:52] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:52,582 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:52] "GET /static_results/lane1_orig.jpg?t=1757249872532 HTTP/1.1" 200 -
+2025-09-07 18:27:52,585 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:52] "GET /static_results/lane1.jpg?t=1757249872532 HTTP/1.1" 200 -
+2025-09-07 18:27:52,596 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:52] "GET /static_results/lane2_orig.jpg?t=1757249872533 HTTP/1.1" 200 -
+2025-09-07 18:27:52,625 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:52] "GET /static_results/lane2.jpg?t=1757249872533 HTTP/1.1" 200 -
+2025-09-07 18:27:52,656 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:52] "GET /static_results/lane3_orig.jpg?t=1757249872533 HTTP/1.1" 200 -
+2025-09-07 18:27:52,683 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:52] "GET /static_results/lane3.jpg?t=1757249872533 HTTP/1.1" 200 -
+2025-09-07 18:27:52,732 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:52] "GET /static_results/lane4_orig.jpg?t=1757249872533 HTTP/1.1" 200 -
+2025-09-07 18:27:52,766 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:52] "GET /static_results/lane4.jpg?t=1757249872533 HTTP/1.1" 200 -
+2025-09-07 18:27:52,804 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:27:52,881 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:27:53,223 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:27:55,480 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:55] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:58,477 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:27:58] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:27:59,588 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:27:59,610 - __main__ - INFO - Iteration 6 completed in 7.5s. Total vehicles: 1
+2025-09-07 18:27:59,610 - __main__ - INFO - Starting analysis iteration 7/8
+2025-09-07 18:27:59,821 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:28:00,010 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:28:00,052 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:28:00,262 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:28:01,485 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:01] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:28:01,549 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:01] "GET /static_results/lane1.jpg?t=1757249881508 HTTP/1.1" 200 -
+2025-09-07 18:28:01,560 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:01] "GET /static_results/lane3_orig.jpg?t=1757249881508 HTTP/1.1" 200 -
+2025-09-07 18:28:01,561 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:01] "GET /static_results/lane1_orig.jpg?t=1757249881508 HTTP/1.1" 200 -
+2025-09-07 18:28:01,575 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:01] "GET /static_results/lane2.jpg?t=1757249881508 HTTP/1.1" 200 -
+2025-09-07 18:28:01,604 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:01] "GET /static_results/lane2_orig.jpg?t=1757249881508 HTTP/1.1" 200 -
+2025-09-07 18:28:01,612 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:01] "GET /static_results/lane3.jpg?t=1757249881508 HTTP/1.1" 200 -
+2025-09-07 18:28:01,619 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:01] "GET /static_results/lane4_orig.jpg?t=1757249881508 HTTP/1.1" 200 -
+2025-09-07 18:28:01,619 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:01] "GET /static_results/lane4.jpg?t=1757249881508 HTTP/1.1" 200 -
+2025-09-07 18:28:04,477 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:04] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:28:06,097 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:28:06,153 - __main__ - INFO - Iteration 7 completed in 6.54s. Total vehicles: 1
+2025-09-07 18:28:06,153 - __main__ - INFO - Starting analysis iteration 8/8
+2025-09-07 18:28:06,487 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:28:06,743 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:28:06,778 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:28:06,981 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:28:11,490 - __main__ - INFO - Analysis stopped by user request
+2025-09-07 18:28:11,492 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:28:11] "POST /stop_analysis HTTP/1.1" 200 -
+2025-09-07 18:28:12,655 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:28:12,707 - __main__ - INFO - Iteration 8 completed in 6.55s. Total vehicles: 1
+2025-09-07 18:28:12,768 - __main__ - INFO - Video analysis completed
+2025-09-07 18:30:42,891 - __main__ - INFO - Application shutdown complete
+2025-09-07 18:30:51,255 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 18:30:51,256 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 18:30:51,266 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 18:30:51,358 - __main__ - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 18:30:51,362 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 18:30:51,362 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\uploads
+2025-09-07 18:30:51,363 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\results
+2025-09-07 18:30:51,363 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 2 - Copy\static_results
+2025-09-07 18:30:51,363 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 18:30:51,364 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 18:30:51,374 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 18:30:51,374 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 18:30:53,278 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:30:53] "GET / HTTP/1.1" 200 -
+2025-09-07 18:30:53,375 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:30:53] "GET /health HTTP/1.1" 200 -
+2025-09-07 18:31:18,952 - __main__ - INFO - Successfully uploaded: video-tl -> lane1.mp4
+2025-09-07 18:31:19,174 - __main__ - INFO - Successfully uploaded: video-tr -> lane2.mp4
+2025-09-07 18:31:19,284 - __main__ - INFO - Successfully uploaded: video-bl -> lane3.mp4
+2025-09-07 18:31:19,410 - __main__ - INFO - Successfully uploaded: video-br -> lane4.mp4
+2025-09-07 18:31:19,439 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:19] "POST /upload_videos HTTP/1.1" 200 -
+2025-09-07 18:31:19,456 - __main__ - INFO - Starting video analysis: 4 videos, 5s interval, 20 max iterations
+2025-09-07 18:31:19,457 - __main__ - INFO - Analysis started with 4 videos, 5s interval, 20 max iterations
+2025-09-07 18:31:19,458 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:19] "POST /start_analysis HTTP/1.1" 200 -
+2025-09-07 18:31:19,770 - __main__ - INFO - Starting analysis iteration 1/20
+2025-09-07 18:31:22,061 - __main__ - INFO - Signal plan computed: [29.7, 16.7, 5.0, 16.7]s green times
+2025-09-07 18:31:22,149 - __main__ - INFO - Iteration 1 completed in 2.38s. Total vehicles: 43
+2025-09-07 18:31:22,473 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:22] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:22,619 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:22] "GET /static_results/lane1_orig.jpg?t=1757250082541 HTTP/1.1" 200 -
+2025-09-07 18:31:22,631 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:22] "GET /static_results/lane2_orig.jpg?t=1757250082543 HTTP/1.1" 200 -
+2025-09-07 18:31:22,634 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:22] "GET /static_results/lane1.jpg?t=1757250082543 HTTP/1.1" 200 -
+2025-09-07 18:31:22,643 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:22] "GET /static_results/lane2.jpg?t=1757250082543 HTTP/1.1" 200 -
+2025-09-07 18:31:22,650 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:22] "GET /static_results/lane3_orig.jpg?t=1757250082543 HTTP/1.1" 200 -
+2025-09-07 18:31:22,664 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:22] "GET /static_results/lane3.jpg?t=1757250082543 HTTP/1.1" 200 -
+2025-09-07 18:31:22,699 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:22] "GET /static_results/lane4_orig.jpg?t=1757250082543 HTTP/1.1" 200 -
+2025-09-07 18:31:22,730 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:22] "GET /static_results/lane4.jpg?t=1757250082543 HTTP/1.1" 200 -
+2025-09-07 18:31:24,771 - __main__ - INFO - Starting analysis iteration 2/20
+2025-09-07 18:31:25,476 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:25] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:27,387 - __main__ - INFO - Signal plan computed: [12.7, 23.6, 32.7, 10.9]s green times
+2025-09-07 18:31:27,436 - __main__ - INFO - Iteration 2 completed in 2.67s. Total vehicles: 33
+2025-09-07 18:31:28,470 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:28] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:28,511 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:28] "GET /static_results/lane1_orig.jpg?t=1757250088474 HTTP/1.1" 200 -
+2025-09-07 18:31:28,512 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:28] "GET /static_results/lane2_orig.jpg?t=1757250088479 HTTP/1.1" 200 -
+2025-09-07 18:31:28,515 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:28] "GET /static_results/lane1.jpg?t=1757250088474 HTTP/1.1" 200 -
+2025-09-07 18:31:28,517 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:28] "GET /static_results/lane3_orig.jpg?t=1757250088480 HTTP/1.1" 200 -
+2025-09-07 18:31:28,519 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:28] "GET /static_results/lane2.jpg?t=1757250088480 HTTP/1.1" 200 -
+2025-09-07 18:31:28,527 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:28] "GET /static_results/lane3.jpg?t=1757250088480 HTTP/1.1" 200 -
+2025-09-07 18:31:28,660 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:28] "GET /static_results/lane4_orig.jpg?t=1757250088480 HTTP/1.1" 200 -
+2025-09-07 18:31:28,668 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:28] "GET /static_results/lane4.jpg?t=1757250088480 HTTP/1.1" 200 -
+2025-09-07 18:31:29,776 - __main__ - INFO - Starting analysis iteration 3/20
+2025-09-07 18:31:31,469 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:31] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:32,288 - __main__ - INFO - Signal plan computed: [15.0, 25.5, 9.0, 15.0]s green times
+2025-09-07 18:31:32,345 - __main__ - INFO - Iteration 3 completed in 2.57s. Total vehicles: 40
+2025-09-07 18:31:34,471 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:34] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:34,515 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:34] "GET /static_results/lane1_orig.jpg?t=1757250094478 HTTP/1.1" 200 -
+2025-09-07 18:31:34,519 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:34] "GET /static_results/lane1.jpg?t=1757250094479 HTTP/1.1" 200 -
+2025-09-07 18:31:34,559 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:34] "GET /static_results/lane2_orig.jpg?t=1757250094479 HTTP/1.1" 200 -
+2025-09-07 18:31:34,569 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:34] "GET /static_results/lane2.jpg?t=1757250094479 HTTP/1.1" 200 -
+2025-09-07 18:31:34,581 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:34] "GET /static_results/lane3_orig.jpg?t=1757250094479 HTTP/1.1" 200 -
+2025-09-07 18:31:34,598 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:34] "GET /static_results/lane3.jpg?t=1757250094479 HTTP/1.1" 200 -
+2025-09-07 18:31:34,619 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:34] "GET /static_results/lane4_orig.jpg?t=1757250094479 HTTP/1.1" 200 -
+2025-09-07 18:31:34,644 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:34] "GET /static_results/lane4.jpg?t=1757250094479 HTTP/1.1" 200 -
+2025-09-07 18:31:34,776 - __main__ - INFO - Starting analysis iteration 4/20
+2025-09-07 18:31:37,427 - __main__ - INFO - Signal plan computed: [26.8, 12.9, 10.7, 20.9]s green times
+2025-09-07 18:31:37,473 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:37] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:37,490 - __main__ - INFO - Iteration 4 completed in 2.71s. Total vehicles: 56
+2025-09-07 18:31:39,777 - __main__ - INFO - Starting analysis iteration 5/20
+2025-09-07 18:31:40,471 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:40] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:40,501 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:40] "GET /static_results/lane2.jpg?t=1757250100480 HTTP/1.1" 200 -
+2025-09-07 18:31:40,502 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:40] "GET /static_results/lane2_orig.jpg?t=1757250100480 HTTP/1.1" 200 -
+2025-09-07 18:31:40,502 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:40] "GET /static_results/lane1.jpg?t=1757250100480 HTTP/1.1" 200 -
+2025-09-07 18:31:40,504 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:40] "GET /static_results/lane1_orig.jpg?t=1757250100479 HTTP/1.1" 200 -
+2025-09-07 18:31:40,504 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:40] "GET /static_results/lane3_orig.jpg?t=1757250100480 HTTP/1.1" 200 -
+2025-09-07 18:31:40,506 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:40] "GET /static_results/lane3.jpg?t=1757250100480 HTTP/1.1" 200 -
+2025-09-07 18:31:40,609 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:40] "GET /static_results/lane4_orig.jpg?t=1757250100480 HTTP/1.1" 200 -
+2025-09-07 18:31:40,645 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:40] "GET /static_results/lane4.jpg?t=1757250100480 HTTP/1.1" 200 -
+2025-09-07 18:31:42,435 - __main__ - INFO - Signal plan computed: [27.4, 12.6, 10.5, 20.5]s green times
+2025-09-07 18:31:42,497 - __main__ - INFO - Iteration 5 completed in 2.72s. Total vehicles: 57
+2025-09-07 18:31:43,473 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:43] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:43,518 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:43] "GET /static_results/lane1.jpg?t=1757250103476 HTTP/1.1" 200 -
+2025-09-07 18:31:43,519 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:43] "GET /static_results/lane1_orig.jpg?t=1757250103476 HTTP/1.1" 200 -
+2025-09-07 18:31:43,522 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:43] "GET /static_results/lane2.jpg?t=1757250103476 HTTP/1.1" 200 -
+2025-09-07 18:31:43,527 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:43] "GET /static_results/lane2_orig.jpg?t=1757250103476 HTTP/1.1" 200 -
+2025-09-07 18:31:43,529 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:43] "GET /static_results/lane3_orig.jpg?t=1757250103476 HTTP/1.1" 200 -
+2025-09-07 18:31:43,532 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:43] "GET /static_results/lane3.jpg?t=1757250103476 HTTP/1.1" 200 -
+2025-09-07 18:31:43,640 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:43] "GET /static_results/lane4_orig.jpg?t=1757250103476 HTTP/1.1" 200 -
+2025-09-07 18:31:43,647 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:43] "GET /static_results/lane4.jpg?t=1757250103476 HTTP/1.1" 200 -
+2025-09-07 18:31:44,777 - __main__ - INFO - Starting analysis iteration 6/20
+2025-09-07 18:31:45,098 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:31:45,297 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:31:45,337 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:31:45,549 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:31:46,473 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:46] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:46,811 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:31:46,853 - __main__ - INFO - Iteration 6 completed in 2.08s. Total vehicles: 1
+2025-09-07 18:31:49,471 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:49] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:49,513 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:49] "GET /static_results/lane2.jpg?t=1757250109479 HTTP/1.1" 200 -
+2025-09-07 18:31:49,515 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:49] "GET /static_results/lane2_orig.jpg?t=1757250109479 HTTP/1.1" 200 -
+2025-09-07 18:31:49,515 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:49] "GET /static_results/lane1.jpg?t=1757250109479 HTTP/1.1" 200 -
+2025-09-07 18:31:49,518 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:49] "GET /static_results/lane1_orig.jpg?t=1757250109479 HTTP/1.1" 200 -
+2025-09-07 18:31:49,520 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:49] "GET /static_results/lane3_orig.jpg?t=1757250109479 HTTP/1.1" 200 -
+2025-09-07 18:31:49,552 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:49] "GET /static_results/lane3.jpg?t=1757250109479 HTTP/1.1" 200 -
+2025-09-07 18:31:49,639 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:49] "GET /static_results/lane4_orig.jpg?t=1757250109479 HTTP/1.1" 200 -
+2025-09-07 18:31:49,648 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:49] "GET /static_results/lane4.jpg?t=1757250109479 HTTP/1.1" 200 -
+2025-09-07 18:31:49,778 - __main__ - INFO - Starting analysis iteration 7/20
+2025-09-07 18:31:50,157 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:31:50,413 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:31:50,453 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:31:50,667 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:31:51,984 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:31:52,027 - __main__ - INFO - Iteration 7 completed in 2.25s. Total vehicles: 1
+2025-09-07 18:31:52,469 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:52] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:52,516 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:52] "GET /static_results/lane1.jpg?t=1757250112473 HTTP/1.1" 200 -
+2025-09-07 18:31:52,527 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:52] "GET /static_results/lane1_orig.jpg?t=1757250112472 HTTP/1.1" 200 -
+2025-09-07 18:31:52,528 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:52] "GET /static_results/lane2_orig.jpg?t=1757250112473 HTTP/1.1" 200 -
+2025-09-07 18:31:52,561 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:52] "GET /static_results/lane2.jpg?t=1757250112473 HTTP/1.1" 200 -
+2025-09-07 18:31:52,571 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:52] "GET /static_results/lane3_orig.jpg?t=1757250112473 HTTP/1.1" 200 -
+2025-09-07 18:31:52,566 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:52] "GET /static_results/lane3.jpg?t=1757250112473 HTTP/1.1" 200 -
+2025-09-07 18:31:52,629 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:52] "GET /static_results/lane4.jpg?t=1757250112473 HTTP/1.1" 200 -
+2025-09-07 18:31:52,639 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:52] "GET /static_results/lane4_orig.jpg?t=1757250112473 HTTP/1.1" 200 -
+2025-09-07 18:31:54,778 - __main__ - INFO - Starting analysis iteration 8/20
+2025-09-07 18:31:55,082 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:31:55,309 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:31:55,352 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:31:55,730 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:31:55,953 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:55] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:57,127 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:31:57,171 - __main__ - INFO - Iteration 8 completed in 2.39s. Total vehicles: 1
+2025-09-07 18:31:58,949 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:58] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:31:58,973 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:58] "GET /static_results/lane1_orig.jpg?t=1757250118953 HTTP/1.1" 200 -
+2025-09-07 18:31:58,978 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:58] "GET /static_results/lane1.jpg?t=1757250118953 HTTP/1.1" 200 -
+2025-09-07 18:31:58,979 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:58] "GET /static_results/lane2_orig.jpg?t=1757250118953 HTTP/1.1" 200 -
+2025-09-07 18:31:59,017 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:59] "GET /static_results/lane2.jpg?t=1757250118953 HTTP/1.1" 200 -
+2025-09-07 18:31:59,025 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:59] "GET /static_results/lane3_orig.jpg?t=1757250118953 HTTP/1.1" 200 -
+2025-09-07 18:31:59,027 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:59] "GET /static_results/lane3.jpg?t=1757250118953 HTTP/1.1" 200 -
+2025-09-07 18:31:59,043 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:59] "GET /static_results/lane4_orig.jpg?t=1757250118953 HTTP/1.1" 200 -
+2025-09-07 18:31:59,060 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:31:59] "GET /static_results/lane4.jpg?t=1757250118953 HTTP/1.1" 200 -
+2025-09-07 18:31:59,779 - __main__ - INFO - Starting analysis iteration 9/20
+2025-09-07 18:32:00,567 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:32:00,843 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:32:00,894 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:32:01,125 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:32:01,472 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:01] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:32:02,311 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:32:02,350 - __main__ - INFO - Iteration 9 completed in 2.57s. Total vehicles: 1
+2025-09-07 18:32:04,473 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:04] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:32:04,507 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:04] "GET /static_results/lane1_orig.jpg?t=1757250124476 HTTP/1.1" 200 -
+2025-09-07 18:32:04,508 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:04] "GET /static_results/lane1.jpg?t=1757250124476 HTTP/1.1" 200 -
+2025-09-07 18:32:04,509 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:04] "GET /static_results/lane2_orig.jpg?t=1757250124476 HTTP/1.1" 200 -
+2025-09-07 18:32:04,514 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:04] "GET /static_results/lane2.jpg?t=1757250124476 HTTP/1.1" 200 -
+2025-09-07 18:32:04,558 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:04] "GET /static_results/lane3_orig.jpg?t=1757250124476 HTTP/1.1" 200 -
+2025-09-07 18:32:04,562 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:04] "GET /static_results/lane3.jpg?t=1757250124476 HTTP/1.1" 200 -
+2025-09-07 18:32:04,577 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:04] "GET /static_results/lane4_orig.jpg?t=1757250124476 HTTP/1.1" 200 -
+2025-09-07 18:32:04,596 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:32:04] "GET /static_results/lane4.jpg?t=1757250124476 HTTP/1.1" 200 -
+2025-09-07 18:32:04,780 - __main__ - INFO - Starting analysis iteration 10/20
+2025-09-07 18:32:05,139 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:32:05,338 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:32:05,375 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:32:05,622 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:32:06,863 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:32:06,901 - __main__ - INFO - Iteration 10 completed in 2.12s. Total vehicles: 1
+2025-09-07 18:32:09,875 - __main__ - INFO - Video analysis completed
+2025-09-07 18:32:09,892 - __main__ - INFO - Application shutdown complete
+2025-09-07 18:42:30,310 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 3\uploads
+2025-09-07 18:42:30,311 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 3\results
+2025-09-07 18:42:30,312 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 3\static_results
+2025-09-07 18:42:30,389 - __main__ - INFO - Successfully loaded YOLO model: yolov8s.pt
+2025-09-07 18:42:30,392 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 18:42:30,392 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 3\uploads
+2025-09-07 18:42:30,393 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 3\results
+2025-09-07 18:42:30,393 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 3\static_results
+2025-09-07 18:42:30,393 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 18:42:30,394 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle']
+2025-09-07 18:42:30,409 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 18:42:30,411 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 18:42:34,923 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:42:34] "GET / HTTP/1.1" 200 -
+2025-09-07 18:42:35,097 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:42:35] "GET /health HTTP/1.1" 200 -
+2025-09-07 18:43:06,298 - __main__ - INFO - Successfully uploaded: video-tl -> lane1.mp4
+2025-09-07 18:43:06,495 - __main__ - INFO - Successfully uploaded: video-tr -> lane2.mp4
+2025-09-07 18:43:06,569 - __main__ - INFO - Successfully uploaded: video-bl -> lane3.mp4
+2025-09-07 18:43:06,677 - __main__ - INFO - Successfully uploaded: video-br -> lane4.mp4
+2025-09-07 18:43:06,694 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:06] "POST /upload_videos HTTP/1.1" 200 -
+2025-09-07 18:43:06,724 - __main__ - INFO - Starting video analysis: 4 videos, 5s interval, 8 max iterations
+2025-09-07 18:43:06,724 - __main__ - INFO - Analysis started with 4 videos, 5s interval, 8 max iterations
+2025-09-07 18:43:06,728 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:06] "POST /start_analysis HTTP/1.1" 200 -
+2025-09-07 18:43:06,953 - __main__ - INFO - Starting analysis iteration 1/8
+2025-09-07 18:43:09,476 - __main__ - INFO - Signal plan computed: [29.7, 16.7, 5.0, 16.7]s green times
+2025-09-07 18:43:09,577 - __main__ - INFO - Iteration 1 completed in 2.62s. Total vehicles: 43
+2025-09-07 18:43:09,751 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:09] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:09,893 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:09] "GET /static_results/lane1.jpg?t=1757250789835 HTTP/1.1" 200 -
+2025-09-07 18:43:09,894 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:09] "GET /static_results/lane3_orig.jpg?t=1757250789836 HTTP/1.1" 200 -
+2025-09-07 18:43:09,895 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:09] "GET /static_results/lane2.jpg?t=1757250789836 HTTP/1.1" 200 -
+2025-09-07 18:43:09,896 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:09] "GET /static_results/lane2_orig.jpg?t=1757250789836 HTTP/1.1" 200 -
+2025-09-07 18:43:09,897 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:09] "GET /static_results/lane1_orig.jpg?t=1757250789834 HTTP/1.1" 200 -
+2025-09-07 18:43:09,897 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:09] "GET /static_results/lane3.jpg?t=1757250789836 HTTP/1.1" 200 -
+2025-09-07 18:43:09,976 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:09] "GET /static_results/lane4.jpg?t=1757250789836 HTTP/1.1" 200 -
+2025-09-07 18:43:09,977 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:09] "GET /static_results/lane4_orig.jpg?t=1757250789836 HTTP/1.1" 200 -
+2025-09-07 18:43:11,953 - __main__ - INFO - Starting analysis iteration 2/8
+2025-09-07 18:43:12,752 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:12] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:14,539 - __main__ - INFO - Signal plan computed: [12.7, 23.6, 32.7, 10.9]s green times
+2025-09-07 18:43:14,592 - __main__ - INFO - Iteration 2 completed in 2.64s. Total vehicles: 33
+2025-09-07 18:43:15,743 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:15] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:15,772 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:15] "GET /static_results/lane2.jpg?t=1757250795751 HTTP/1.1" 200 -
+2025-09-07 18:43:15,777 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:15] "GET /static_results/lane1.jpg?t=1757250795745 HTTP/1.1" 200 -
+2025-09-07 18:43:15,780 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:15] "GET /static_results/lane2_orig.jpg?t=1757250795751 HTTP/1.1" 200 -
+2025-09-07 18:43:15,806 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:15] "GET /static_results/lane1_orig.jpg?t=1757250795745 HTTP/1.1" 200 -
+2025-09-07 18:43:15,899 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:15] "GET /static_results/lane3_orig.jpg?t=1757250795751 HTTP/1.1" 200 -
+2025-09-07 18:43:15,914 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:15] "GET /static_results/lane3.jpg?t=1757250795751 HTTP/1.1" 200 -
+2025-09-07 18:43:15,946 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:15] "GET /static_results/lane4_orig.jpg?t=1757250795751 HTTP/1.1" 200 -
+2025-09-07 18:43:15,965 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:15] "GET /static_results/lane4.jpg?t=1757250795751 HTTP/1.1" 200 -
+2025-09-07 18:43:16,953 - __main__ - INFO - Starting analysis iteration 3/8
+2025-09-07 18:43:18,744 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:18] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:20,306 - __main__ - INFO - Signal plan computed: [15.0, 25.5, 9.0, 15.0]s green times
+2025-09-07 18:43:20,372 - __main__ - INFO - Iteration 3 completed in 3.42s. Total vehicles: 40
+2025-09-07 18:43:21,743 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:21] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:21,795 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:21] "GET /static_results/lane1_orig.jpg?t=1757250801756 HTTP/1.1" 200 -
+2025-09-07 18:43:21,802 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:21] "GET /static_results/lane1.jpg?t=1757250801756 HTTP/1.1" 200 -
+2025-09-07 18:43:21,808 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:21] "GET /static_results/lane2_orig.jpg?t=1757250801756 HTTP/1.1" 200 -
+2025-09-07 18:43:21,853 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:21] "GET /static_results/lane2.jpg?t=1757250801756 HTTP/1.1" 200 -
+2025-09-07 18:43:21,869 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:21] "GET /static_results/lane3_orig.jpg?t=1757250801756 HTTP/1.1" 200 -
+2025-09-07 18:43:21,901 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:21] "GET /static_results/lane3.jpg?t=1757250801756 HTTP/1.1" 200 -
+2025-09-07 18:43:21,928 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:21] "GET /static_results/lane4_orig.jpg?t=1757250801756 HTTP/1.1" 200 -
+2025-09-07 18:43:21,981 - __main__ - INFO - Starting analysis iteration 4/8
+2025-09-07 18:43:21,993 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:21] "GET /static_results/lane4.jpg?t=1757250801756 HTTP/1.1" 200 -
+2025-09-07 18:43:24,572 - __main__ - INFO - Signal plan computed: [26.8, 12.9, 10.7, 20.9]s green times
+2025-09-07 18:43:24,633 - __main__ - INFO - Iteration 4 completed in 2.65s. Total vehicles: 56
+2025-09-07 18:43:24,762 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:24] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:24,801 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:24] "GET /static_results/lane1.jpg?t=1757250804782 HTTP/1.1" 200 -
+2025-09-07 18:43:24,801 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:24] "GET /static_results/lane2_orig.jpg?t=1757250804782 HTTP/1.1" 200 -
+2025-09-07 18:43:24,802 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:24] "GET /static_results/lane3_orig.jpg?t=1757250804782 HTTP/1.1" 200 -
+2025-09-07 18:43:24,803 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:24] "GET /static_results/lane3.jpg?t=1757250804782 HTTP/1.1" 200 -
+2025-09-07 18:43:24,805 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:24] "GET /static_results/lane2.jpg?t=1757250804782 HTTP/1.1" 200 -
+2025-09-07 18:43:24,807 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:24] "GET /static_results/lane1_orig.jpg?t=1757250804782 HTTP/1.1" 200 -
+2025-09-07 18:43:24,874 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:24] "GET /static_results/lane4_orig.jpg?t=1757250804782 HTTP/1.1" 200 -
+2025-09-07 18:43:24,877 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:24] "GET /static_results/lane4.jpg?t=1757250804782 HTTP/1.1" 200 -
+2025-09-07 18:43:26,983 - __main__ - INFO - Starting analysis iteration 5/8
+2025-09-07 18:43:27,742 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:27] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:29,193 - __main__ - INFO - Signal plan computed: [27.4, 12.6, 10.5, 20.5]s green times
+2025-09-07 18:43:29,288 - __main__ - INFO - Iteration 5 completed in 2.3s. Total vehicles: 57
+2025-09-07 18:43:30,744 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:30] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:30,813 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:30] "GET /static_results/lane1_orig.jpg?t=1757250810756 HTTP/1.1" 200 -
+2025-09-07 18:43:30,814 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:30] "GET /static_results/lane2_orig.jpg?t=1757250810757 HTTP/1.1" 200 -
+2025-09-07 18:43:30,814 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:30] "GET /static_results/lane1.jpg?t=1757250810757 HTTP/1.1" 200 -
+2025-09-07 18:43:30,822 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:30] "GET /static_results/lane2.jpg?t=1757250810757 HTTP/1.1" 200 -
+2025-09-07 18:43:30,867 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:30] "GET /static_results/lane3_orig.jpg?t=1757250810757 HTTP/1.1" 200 -
+2025-09-07 18:43:30,871 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:30] "GET /static_results/lane3.jpg?t=1757250810757 HTTP/1.1" 200 -
+2025-09-07 18:43:30,982 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:30] "GET /static_results/lane4_orig.jpg?t=1757250810757 HTTP/1.1" 200 -
+2025-09-07 18:43:30,984 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:30] "GET /static_results/lane4.jpg?t=1757250810757 HTTP/1.1" 200 -
+2025-09-07 18:43:31,984 - __main__ - INFO - Starting analysis iteration 6/8
+2025-09-07 18:43:32,294 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:43:32,566 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:43:32,609 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:43:32,863 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:43:33,755 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:33] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:34,214 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:43:34,257 - __main__ - INFO - Iteration 6 completed in 2.27s. Total vehicles: 1
+2025-09-07 18:43:36,749 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:36] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:36,787 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:36] "GET /static_results/lane1.jpg?t=1757250816755 HTTP/1.1" 200 -
+2025-09-07 18:43:36,792 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:36] "GET /static_results/lane1_orig.jpg?t=1757250816755 HTTP/1.1" 200 -
+2025-09-07 18:43:36,848 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:36] "GET /static_results/lane2.jpg?t=1757250816755 HTTP/1.1" 200 -
+2025-09-07 18:43:36,850 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:36] "GET /static_results/lane2_orig.jpg?t=1757250816755 HTTP/1.1" 200 -
+2025-09-07 18:43:36,854 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:36] "GET /static_results/lane3_orig.jpg?t=1757250816755 HTTP/1.1" 200 -
+2025-09-07 18:43:36,880 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:36] "GET /static_results/lane3.jpg?t=1757250816755 HTTP/1.1" 200 -
+2025-09-07 18:43:36,987 - __main__ - INFO - Starting analysis iteration 7/8
+2025-09-07 18:43:36,988 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:36] "GET /static_results/lane4_orig.jpg?t=1757250816755 HTTP/1.1" 200 -
+2025-09-07 18:43:36,989 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:36] "GET /static_results/lane4.jpg?t=1757250816755 HTTP/1.1" 200 -
+2025-09-07 18:43:37,417 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:43:37,637 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:43:37,681 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:43:37,912 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:43:39,290 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:43:39,389 - __main__ - INFO - Iteration 7 completed in 2.4s. Total vehicles: 1
+2025-09-07 18:43:39,741 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:39] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:39,780 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:39] "GET /static_results/lane1_orig.jpg?t=1757250819745 HTTP/1.1" 200 -
+2025-09-07 18:43:39,791 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:39] "GET /static_results/lane1.jpg?t=1757250819745 HTTP/1.1" 200 -
+2025-09-07 18:43:39,810 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:39] "GET /static_results/lane2_orig.jpg?t=1757250819745 HTTP/1.1" 200 -
+2025-09-07 18:43:39,847 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:39] "GET /static_results/lane2.jpg?t=1757250819745 HTTP/1.1" 200 -
+2025-09-07 18:43:39,888 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:39] "GET /static_results/lane3_orig.jpg?t=1757250819745 HTTP/1.1" 200 -
+2025-09-07 18:43:39,941 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:39] "GET /static_results/lane3.jpg?t=1757250819745 HTTP/1.1" 200 -
+2025-09-07 18:43:39,955 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:39] "GET /static_results/lane4_orig.jpg?t=1757250819745 HTTP/1.1" 200 -
+2025-09-07 18:43:39,997 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:39] "GET /static_results/lane4.jpg?t=1757250819745 HTTP/1.1" 200 -
+2025-09-07 18:43:41,987 - __main__ - INFO - Starting analysis iteration 8/8
+2025-09-07 18:43:42,323 - __main__ - WARNING - Could not read frame from video 0
+2025-09-07 18:43:42,540 - __main__ - WARNING - Could not read frame from video 1
+2025-09-07 18:43:42,583 - __main__ - WARNING - Could not read frame from video 2
+2025-09-07 18:43:42,745 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:42] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:42,984 - __main__ - WARNING - Could not read frame from video 3
+2025-09-07 18:43:44,991 - __main__ - INFO - Signal plan computed: [5.0, 5.0, 5.0, 5.0]s green times
+2025-09-07 18:43:45,042 - __main__ - INFO - Iteration 8 completed in 3.06s. Total vehicles: 1
+2025-09-07 18:43:45,745 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:45] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:45,791 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:45] "GET /static_results/lane2_orig.jpg?t=1757250825751 HTTP/1.1" 200 -
+2025-09-07 18:43:45,806 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:45] "GET /static_results/lane1.jpg?t=1757250825751 HTTP/1.1" 200 -
+2025-09-07 18:43:45,820 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:45] "GET /static_results/lane1_orig.jpg?t=1757250825751 HTTP/1.1" 200 -
+2025-09-07 18:43:45,836 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:45] "GET /static_results/lane2.jpg?t=1757250825751 HTTP/1.1" 200 -
+2025-09-07 18:43:45,853 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:45] "GET /static_results/lane3_orig.jpg?t=1757250825752 HTTP/1.1" 200 -
+2025-09-07 18:43:45,897 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:45] "GET /static_results/lane3.jpg?t=1757250825752 HTTP/1.1" 200 -
+2025-09-07 18:43:45,961 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:45] "GET /static_results/lane4_orig.jpg?t=1757250825752 HTTP/1.1" 200 -
+2025-09-07 18:43:45,990 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:45] "GET /static_results/lane4.jpg?t=1757250825752 HTTP/1.1" 200 -
+2025-09-07 18:43:47,118 - __main__ - INFO - Video analysis completed
+2025-09-07 18:43:48,744 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:48] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:51,755 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:51] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:54,749 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:54] "GET /latest_data HTTP/1.1" 200 -
+2025-09-07 18:43:56,748 - __main__ - INFO - Analysis stopped by user request
+2025-09-07 18:43:56,752 - werkzeug - INFO - 127.0.0.1 - - [07/Sep/2025 18:43:56] "POST /stop_analysis HTTP/1.1" 200 -
+2025-09-07 18:46:32,541 - __main__ - INFO - Application shutdown complete
+2025-09-07 19:59:14,545 - app - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 4\uploads
+2025-09-07 19:59:14,548 - app - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 4\results
+2025-09-07 19:59:14,549 - app - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 4\static_results
+2025-09-07 19:59:14,550 - app - INFO - Skipping YOLO model load due to SKIP_YOLO env var
+2025-09-07 20:00:34,938 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 4\uploads
+2025-09-07 20:00:34,939 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 4\results
+2025-09-07 20:00:34,940 - __main__ - INFO - Created/verified directory: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 4\static_results
+2025-09-07 20:00:34,941 - __main__ - INFO - Skipping YOLO model load due to SKIP_YOLO env var
+2025-09-07 20:00:34,945 - __main__ - INFO - Starting Enhanced Traffic Management System...
+2025-09-07 20:00:34,945 - __main__ - INFO - Upload folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 4\uploads
+2025-09-07 20:00:34,946 - __main__ - INFO - Results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 4\results
+2025-09-07 20:00:34,947 - __main__ - INFO - Static results folder: D:\PYTHON_ML_ALGORITHMS\Traffic_Management\Yolo_Web_Video - 4\static_results
+2025-09-07 20:00:34,947 - __main__ - INFO - YOLO model: yolov8s.pt
+2025-09-07 20:00:34,947 - __main__ - INFO - Target classes: ['car', 'truck', 'motorcycle', 'bus', 'bicycle', 'ambulance', 'firetruck']
+2025-09-07 20:00:35,016 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-09-07 20:00:35,017 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

@@ -1,0 +1,44 @@
+{
+  "system": {
+    "upload_folder": "uploads",
+    "results_folder": "results", 
+    "static_results_folder": "static_results",
+    "max_file_size_mb": 100,
+    "allowed_extensions": ["mp4", "avi", "mov", "mkv", "wmv"]
+  },
+  "yolo": {
+    "model": "yolov8s.pt",
+    "target_classes": [
+      "car",
+      "truck",
+      "motorcycle",
+      "bus",
+      "bicycle",
+      "ambulance",
+      "firetruck"
+    ],
+    "confidence_threshold": 0.4,
+    "iou_threshold": 0.5,
+    "frame_width": 640,
+    "frame_height": 480
+  },
+  "analysis": {
+    "interval_seconds": 5,
+    "max_iterations": 20,
+    "min_green_time": 5.0,
+    "max_green_time": 60.0,
+    "default_cycle_time": 60.0
+  },
+  "traffic_weights": {
+    "car": 1.0,
+    "truck": 2.0,
+    "bus": 2.5,
+    "motorcycle": 0.5,
+    "bicycle": 0.3
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "traffic_system.log",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}

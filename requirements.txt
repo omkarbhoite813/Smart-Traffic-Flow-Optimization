@@ -1,0 +1,29 @@
+# Enhanced Traffic Management System Requirements
+# Core web framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Computer vision and AI
+ultralytics==8.0.200
+opencv-python==4.8.1.78
+numpy==1.24.3
+torch==2.0.1
+torchvision==0.15.2
+
+# Image processing
+Pillow==10.0.1
+
+# Data handling
+pandas==2.0.3
+
+# Utilities
+python-dateutil==2.8.2
+pathlib2==2.3.7
+
+# Development and testing (optional)
+pytest==7.4.2
+black==23.7.0
+flake8==6.0.0
+
+# Production deployment (optional)
+gunicorn==21.2.0
